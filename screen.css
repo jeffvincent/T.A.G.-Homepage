@@ -1,0 +1,962 @@
+/*------------------------------------------------------------------ 
+[Master Stylesheet] 
+
+Author:			Max Nanis <MaxN [at] bennington [dot] edu>
+Version:	    1.1
+Last change:	1/20/10
+Primary use:	Those Apple Guys 
+
+-------------------------------------------------------------------*/
+
+* {
+	margin-top:    0;
+	margin-left:    0;
+	margin-bottom:    0;
+	margin:    0;
+	padding-bottom:    0;
+	padding-left:    0;
+	padding-right:    0;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+}
+
+#service_info img.services_pics {
+	position:    relative;
+	float:    right;
+	width:    35%;
+	padding:    1em 0 1em 1em;
+	border-left:    .1em solid gray;
+	margin-left:    1em;
+}
+
+html,body {
+	height:    100%;
+	z-index:    1;
+	background-repeat:    repeat-y;
+}
+
+body {
+	background:    #f8f4ea url(images/backgrounds/bg.png) repeat-x;
+}
+
+#container {
+	width:    1000px;
+	padding:    0;
+	min-height:    100%;
+	height:    100%;
+	text-align:    left;
+	margin:    0 auto;
+
+}
+
+html>body #container {
+	height:    auto;
+	float:    none;
+}
+
+img#guys {
+	position:    absolute;
+	margin-top:    24%;
+	width:    50%;
+	z-index:    1;
+}
+
+
+
+
+/*  ************* Header Layout  ************* */
+
+#container #header {
+	clear:    both;
+	font-size:    1px;
+	color:    #fefdfb;
+	height:    131px;
+
+}
+
+#header a {
+	text-decoration:    none;
+	font-weight:    normal;
+	font-style:    normal;
+	border:    none;
+}
+
+#container #header img#header_logo {
+	font-weight:    normal;
+	font-style:    normal;
+	text-decoration:    none;
+	border:    none;
+	height:    90%;
+	position:    relative;
+	margin-top:    1%;
+}
+
+#container #header img#whitehead {
+	float:    right;
+	clear:    left;
+	position:    relative;
+	height:    129px;
+}
+
+img#quote {
+	float:    right;
+	clear:    left;
+	position:    relative;
+	right:    -20px;
+	bottom:    -53px;
+}
+
+#header h1{
+	width:    1px;
+	height:    1px;
+	color:    fuchsia;
+	top:    -9999px;
+	position:    absolute;
+	}
+
+/*  ************* NavBar Layout  ************* */
+
+#container #navbar {
+	background:    #f8f4ea url(images/buttons/menu_bg.png) repeat-x;
+	z-index:    0;
+	display:    inline-block;
+	margin-right:    auto;
+	margin-left:    auto;
+	height:    45px;
+	clear:    both;
+	position:    relative;
+}
+
+#container #navbar h2{
+	clear:    none;
+	position:    absolute;
+	color:    #987c5c;
+	display:    inline-block;
+	float:    right;
+	right:    -27em;
+	padding:    0;
+	font:    normal 120% Georgia, "Times New Roman", Times, serif;
+	margin-top:    -1.8em;
+}
+
+#navbar ul {
+	list-style: none;
+	display:    inline-block;
+	text-indent:    0;
+	padding-top:    0px;
+	padding-bottom:    0px;
+	margin-left:    auto;
+	margin-right:    auto;
+	background-color:    transparent;
+	padding:    0;
+}
+
+#navbar li {
+	list-style: none;	
+	display: inline;
+	padding-top:    0;
+	height:    45px;
+	float:    left;
+}
+
+#navbar a {
+	display:    block;
+	padding:    0;
+	margin:    0;
+	float:    left;
+	height:    2.8em;
+	width:    7.5em;
+	text-align:    left;
+	clear:    left;
+	background-image:url('images/buttons/nav.png');text-indent:-9999px;height:45px;
+	border-style:    none;
+	position:    relative;
+}
+
+
+#navbar #home a {width:120px;background-position:left top;}
+#navbar #about a {width:120px;background-position:-120px top;}
+#navbar #services a {width:120px;background-position:-240px top;}
+#navbar #contact a {width:120px;background-position:-360px top;}
+#navbar #home a:hover {width:120px;background-position:left bottom;}
+#navbar #about a:hover {width:120px;background-position:-120px bottom;}
+#navbar #services a:hover {width:120px;background-position:-240px bottom;}
+#navbar #contact a:hover {width:120px;background-position:-360px bottom;}
+
+div#sitemap  h3 {
+	color:    #515151;
+	font:    2em Georgia, "Times New Roman", Times, serif;
+}
+
+div#contact_info  h3 {
+	color:    #515151;
+	font:    2em Georgia, "Times New Roman", Times, serif;
+}
+
+div#email_sub  h3 {
+	color:    #515151;
+	font:    2em Georgia, "Times New Roman", Times, serif;
+	padding-bottom:    .5em;
+}
+
+
+
+#discription p {
+		color:    #282828;
+	padding:    1;
+	text-align:    left;
+	white-space:    normal;
+	z-index:    1;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	margin:    1em;
+	word-spacing:    .2em;
+}
+
+#discription p em {
+	font-style:    normal;
+	font-weight:    normal;
+}
+
+#video object {
+	width:    100%;
+}
+
+
+#discription h2 {
+	color:    #525252;
+	z-index:    1;
+	text-transform:    uppercase;
+	font:    small-caps 260% Georgia, "Times New Roman", Times, serif;
+}
+
+img#bio_video {
+	position:    absolute;
+	width:    8em;
+	float:    left;
+	border-style:    none;
+	top:    18.6em;
+	left:    17.4em;
+}
+
+/*  ************* Content Layout  ************* */
+
+#container #contact_locations {
+	float:    left;
+	width:    100%;
+	height:    100%;
+	text-align:    center;
+	z-index:    2;
+	background:    transparent no-repeat;
+
+	margin-top:    3em;
+	padding:    0;
+}
+
+#container div#contact_locations #ambler{
+	clear:    left;
+	float:    left;
+	width:    46%;
+	z-index:    0;
+	font-family:    "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding:    1em;
+	background:    white url(images/backgrounds/contact_locations_bg.png) repeat-y right center;
+	
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+}
+
+#contact_locations h2 {
+	width:    100%;
+	text-align:    center;
+	color:    #515151;
+	font:    200% Georgia, "Times New Roman", Times, serif;
+	margin-bottom:    .5em;
+}
+
+#container div#contact_locations #westchester {
+	clear:    right;
+	float:    right;
+	width:    46%;
+	z-index:    0;
+	font-family:    "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding:    1em;
+	position:    relative;
+	background:    white url(images/backgrounds/contact_locations_bg.png) repeat-y right center;
+	
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+}
+
+#contact_locations img {
+	float:    left;
+	position:    relative;
+	width:    50%;
+		border-style:    none;
+}
+
+img#ichat {
+	float:    left;
+	width:    28%;
+	display:    block;
+	position:    relative;
+	padding-top:    1em;
+	padding-bottom:    1em;
+	padding-left:    3.5em;
+}
+
+
+/*  ************* Bio Layout  ************* */
+
+#container #bio {
+	width:    100%;
+	text-align: center;
+	z-index:    2;
+	background:    transparent no-repeat;
+	margin-top:    2.8em;
+	height:    100%;
+	display:    block;
+}
+
+#container div#bio #chip {
+	clear:    left;
+	float:    left;
+	width:    46%;
+	z-index:    0;
+	font-family:    "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding:    1em;	
+	background:    white url(images/about/apple_chip.png) no-repeat 95% 95%;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;	
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+	height:    100%;
+	position:    relative;
+}
+
+#chip_pic_div {
+float: left;
+}
+
+
+#container div#bio .info {
+text-align: center;
+float: right;
+width: 46%;
+}
+
+#container div#bio p {
+	color:    #282828;
+	text-align:    center;
+	white-space:    normal;
+	z-index:    1;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	word-spacing:    .2em;
+	margin:    0;
+	padding-left:    1em;
+	padding-right:    1em;
+}
+
+div#bio blockquote {
+	margin:    2em 1em 1em;
+	font-style:    italic;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+}
+
+div#bio blockquote:before {
+  float:    left;
+  font-family: Georgia;
+  margin-bottom:    -50em;
+  font-size:    300%;
+  content: '"';
+  color:    #d3d2d3;
+	opacity:    0.5;
+	z-index:    0;
+	margin-left:    -.9em;
+	margin-top:    -.7em;
+	position:    relative;
+	width:    50%;
+}
+
+div#bio blockquote:after {
+  float: right;
+  font-family: Georgia;
+  content: '"';
+  font-size:    300%;
+  color:    #d3d2d3;
+	opacity:    0.49;
+	z-index:    0;
+	padding-right:    .2em;
+	height:    .4em;
+}
+
+img#apple_logo {
+	width:    8%;
+	float:    left;
+	position:    absolute;
+	top:    18.3em;
+	left:    26.5em;
+}
+
+#container div#bio #jay {
+	clear:    right;
+	float:    right;
+	width:    46%;
+	z-index:    0;
+	font-family:    "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding:    1em;
+	background:    white url(images/about/apple_jay.png) no-repeat 95% 95%;	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+	height:    100%;
+	position:    relative;
+}
+
+img#chip_pic {
+	width: 225px;
+	position: relative;
+}
+
+img#jay_pic {
+	width: 225px;
+	position:    relative;
+}
+
+#bio h2 {
+	color:    #525252;
+	z-index:    1;
+	text-transform:    capitalize;
+	font:    small-caps 260% Georgia, "Times New Roman", Times, serif;
+}
+
+/*
+#container #bio {
+	width:    100%;
+	text-align:    center;
+	z-index:    2;
+	background:    transparent no-repeat;
+	margin-top:    2.8em;
+	height:    100%;
+	display:    block;
+}
+
+#container .individual_bio {
+	width:    46%;
+	z-index:    0;
+	padding:    1em;	
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;	
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+	height:    100%;
+	position:    relative;
+}
+
+.bio#chip_bio {
+clear: left;
+float: left;
+background:    white url(images/about/apple_chip.png) no-repeat 95% 95%;
+}
+
+.bio#jay_bio {
+clear: right;
+float: right;
+background:    white url(images/about/apple_jay.png) no-repeat 95% 95%;	-moz-border-radius: 10px;
+}
+
+.bio img {
+width: 100%;
+height: 100%;
+float: left;
+}
+
+.bio .info {
+width: 225px;
+position: absolute;
+right: 0;
+padding: 0 1em;
+}
+
+#container div#bio p {
+	color:    #282828;
+	padding:    1;
+	text-align:    left;
+	white-space:    normal;
+	z-index:    1;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	word-spacing:    .2em;
+	width:    40%;
+	float:    left;
+	margin:    0;
+	padding-left:    1em;
+	padding-right:    1em;
+}
+
+div#bio blockquote {
+	float:    right;
+	margin:    2em 1em 1em;
+	width:    43%;
+	font-style:    italic;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+}
+
+div#bio .bqstart {
+     float:    left;
+     margin-bottom:    -50em;
+     font-size:    300%;
+     color:    #d3d2d3;
+	opacity:    0.5;
+	z-index:    0;
+	margin-left:    -.9em;
+	margin-top:    -.7em;
+	position:    relative;
+	width:    50%;
+}
+
+div#bio .bqend {
+     float: right;
+     font-size:    300%;
+     color:    #d3d2d3;
+	opacity:    0.49;
+	z-index:    0;
+	padding-right:    .2em;
+	height:    .4em;
+}
+
+img#apple_logo {
+	width:    8%;
+	float:    left;
+	position:    absolute;
+	top:    18.3em;
+	left:    26.5em;
+}
+
+img#chip_pic {
+	width:    50%;
+	text-shadow:    gray 5em 5px 10px;
+	position:    relative;
+	float:    left;
+}
+
+img#jay_pic {
+	width:    50%;
+	position:    relative;
+	float:    left;
+}
+
+#bio h2 {
+	color:    #525252;
+	z-index:    1;
+	text-transform:    capitalize;
+	font:    small-caps 260% Georgia, "Times New Roman", Times, serif;
+}
+*/
+#contact_locations h3 {
+	color:    #515151;
+	text-transform:    capitalize;
+	font:    small-caps 260% Georgia, "Times New Roman", Times, serif;
+	margin-bottom:    .5em;
+}
+
+#tagus blockquote p {
+	float:    right;
+	clear:    none;
+	position:    relative;
+	margin-top:    1.5em;
+	color:    gray;
+}
+
+#container div#top_footer #backgrounds {
+	float:    left;
+	clear:    right;
+	padding-top:    3em;
+	width:    9.9em;
+}
+
+#backgrounds img#background {
+	width:    20em;
+	position:    relative;
+	z-index:    0;
+	float:    left;
+	padding-right:    3em;
+	bottom:    2.5em;
+	display:    block;
+	clear:    left;
+}
+
+/*
+.bqstart {
+     float: left;
+     margin-bottom:    -50em;
+     font-size: 700%;
+     color: #FF0000;
+	opacity:    0.5;
+	z-index:    0;
+	width:    1em;
+	padding-top:    .4em;
+	margin-left:    -.9em;
+	margin-top:    -.7em;
+}
+
+ .bqend {
+     float: right;
+     font-size: 700%;
+     color: #FF0000;
+	opacity:    0.49;
+	z-index:    0;
+	padding-right:    .2em;
+	height:    .4em;
+}
+*/
+
+/*  ************* Top Footer Layout  ************* */
+
+#container #top_footer {
+	width:    97%;
+	height:    100%;
+	text-align:    center;
+	border-top-style:    none;
+	border:    .1em solid #d3d2d3;
+	background:    white url(images/backgrounds/top_footer.png) repeat-x left bottom;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+	float:    left;
+	display:    block;
+	margin-top:    1em;
+	margin-bottom:    1em;
+	padding:    1em;
+}
+
+div#services {
+	display:    block;
+	position:    relative;
+	float:    left;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px; 
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-box-shadow: 2px 3px 8px #d3d2d3;
+	-webkit-box-shadow: 2px 3px 8px #d3d2d3;
+	border:    .1em solid #d3d2d3;
+	margin-top:    3em;
+	background:    white url(images/logo/apple_guys_bg.png) no-repeat right bottom;
+}
+
+div#service_info {
+	float:    right;
+	height:    100%;
+	background:    transparent none repeat-x center center;
+	clear:    none;
+	position:    relative;
+	width:    71%;
+}
+
+#service_info p {
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	word-spacing:    .2em;
+	padding:    1em 2em;
+	line-height:    150%;
+	background-color:    transparent;
+}
+
+#service_info h4 {
+	text-align:    center;
+	text-transform:    uppercase;
+	font:    200%/120% Georgia, "Times New Roman", Times, serif;
+	width:    100%;
+	padding-top:    1em;
+	padding-bottom:    .5em;
+	letter-spacing:    .06em;
+}
+
+#services h1 {
+	display:    block;
+	border-bottom:    .1em solid #d3d2d3;
+	float:    left;
+		color:    #515151;
+	font:    2em Georgia, "Times New Roman", Times, serif;
+	padding:    .5em 2em .5em .5em;
+	width:    92%;
+	background:    url(images/backgrounds/h1_bg.png) repeat-x center top;
+}
+
+#services ol {
+	float:    left;
+	display:    block;
+	position:    relative;
+	list-style-type:    none;
+	padding:    1em;
+	width:    25%;
+	height:    100%;
+	border-right:    .1em solid #d3d2d3;
+	background:    url(images/backgrounds/ol_bg.png) repeat-y left top;
+	clear:    both;
+	
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+
+}
+
+#services ol li {
+	padding-top:    1em;
+	padding-bottom:    1em;
+	border-bottom:    .1em solid #d3d2d3;
+	color:    #817b7b;
+	font:    bold 1em Georgia, "Times New Roman", Times, serif;
+}
+
+#services #last ol li {
+	border:    none;
+	color:    #f00;
+}
+
+
+
+#serivces li {
+	padding-top:    1em;
+	padding-bottom:    1em;
+}
+
+#container div#top_footer #sitemap {
+	clear:    left;
+	float:    left;
+	width:    8em;
+	padding:    1em;
+	line-height:    2em;
+	height:    100%;
+	position:    relative;
+  margin-left: 10px;
+}
+
+#container div#top_footer #sitemap ol li {
+	list-style-position:    inside;
+	list-style-type:    none;
+	text-align:    left;
+	border-bottom:    1px solid #c8c8c8;
+	width:    8em;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	list-style-image:    url(images/buttons/block_bullet.png);
+	opacity:    1;
+	line-height:    2.3em;
+}
+
+#container div#top_footer #sitemap ol li:last-child {
+border-bottom: 0;
+}
+
+a {
+	text-decoration:    none;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	color:    #525252;
+}
+
+#container div#top_footer #contact_info {
+	float:    left;
+	width:    520px;
+	padding:    1em 0;
+	margin-left:    40px;
+	position:    relative;
+	height:    100%;
+}
+
+div#a {
+	clear:    left;
+	display:    block;
+	float:    left;
+	padding-right:    0;
+	padding-left:    1em;
+	border-right:    .1em solid #d3d2d3;
+	margin-top:    1em;
+	width:    240px;
+	height:    100%;
+}
+
+div#wc {
+	width:    225px;
+	clear:    right;
+	float:    left;
+	position:    relative;
+	text-align:    right;
+	padding-left:    15px;
+	padding-right:    1em;
+	margin-top:    1em;
+	height:    100%;
+}
+
+
+div#contact_info p {
+	width:    95%;
+	height:    100%;
+	color:    #525252;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	line-height:    2em;
+	background-position:    0 50%;
+	text-align:    right;
+	margin-right:    0;
+	margin-top:    .5em;
+	padding-top:    0;
+	padding-bottom:    0;
+	padding-right:    0;
+}
+
+#contact_info a {
+	text-decoration:    none;
+	color:    #525252;
+}
+
+
+p#maps {
+	background:    url(images/buttons/maps.png) no-repeat;
+}
+
+#contact_locations a p  {
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	color:    black;
+	margin:    0;
+	width:    45%;
+	float:    right;
+	clear:    right;
+	position:    relative;
+	padding:    0 0 .5em;
+	text-align:    center;
+}
+
+#contact_locations p a  {
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	color:    black;
+	margin:    0;
+	width:    45%;
+	float:    right;
+	clear:    right;
+	position:    relative;
+	padding:    0 0 .5em;
+	text-align:    center;
+}
+
+#contact_locations h4 {
+	color:    black;
+	text-align:    left;
+	padding:    0;
+	width:    45%;
+	float:    right;
+	margin:    0 0 .7em;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	font-weight:    bold;
+}
+
+h5 {
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	line-height:    1.6em;
+	text-align:    center;
+	width:    110%;
+	float:    right;
+	position:    relative;
+}
+
+#sitemap ol {
+	margin-top:    1em;
+}
+
+
+
+
+#phone {
+	background:    url(images/buttons/phone.png) no-repeat 0 50%;
+	margin-top:    .5em;
+}
+
+
+
+#container div#top_footer #email_sub {
+	width:    10.3em;
+	z-index:    4;
+	clear:    none;
+	display:    block;
+	position:    relative;
+	float:    left;
+	padding:    1em;
+}
+
+img#background {
+	position:    absolute;
+	z-index:    -1;
+	float:    left;
+	width:    150%;
+	margin-top:    4.6em;
+	margin-left:    -3em;
+}
+
+
+
+#email_sub form input {
+	float:    right;
+	width:    180px;
+	height:    1.5em;
+	z-index:    0;
+	background-color:    white;
+	margin-top:    20px;
+	font-family:    Georgia, "Times New Roman", Times, serif;
+	color:    gray;
+
+}
+
+input.mysubmit {
+	position:    relative;
+	padding:    0;
+	margin:    0;
+	float:    right;
+}
+
+#email_sub form input.submit {
+	color:    gray;
+	width:    40%;
+	position:    relative;
+	float:    right;
+	font-size:    15px;
+	margin-top:    15px;
+}
+
+#email_sub form {
+	
+	
+	float:    right;
+	left:    4em;
+	position:    relative;
+}
+
+/*  ************* Footer Layout  ************* */
+
+#footer {
+	clear:    both;
+	width:    100%;
+	font-size:    11px;
+	vertical-align:    top;
+	color:    white;
+	text-align:    center;
+	position:    relative;
+	background:    transparent url(images/backgrounds/bg_bottom.png) repeat-x center top;
+	margin-right:    auto;
+	margin-left:    auto;
+	margin-bottom:    auto;
+}
+
+p#top {
+	background:    url(images/backgrounds/footer_line.png) no-repeat center bottom;
+}
+
+#footer > p {
+	padding:    2em;
+	position:    relative;
+	color:    #f8f4ea;
+}
+
+#footer p a {
+	color:    white;
+}

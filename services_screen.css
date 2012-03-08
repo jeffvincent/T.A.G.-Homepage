@@ -1,0 +1,11 @@
+/*------------------------------------------------------------------ 
+[Master Stylesheet] 
+
+Author:			Max Nanis <MaxN [at] bennington [dot] edu>
+Version:	    1.0
+Last change:	1/5/10
+Primary use:	Those Apple Guys 
+
+-------------------------------------------------------------------*/
+#navbar #services a {width:120px;background-position:-240px center;}
+#navbar #services a:hover {width:120px;background-position:-240px center;}
