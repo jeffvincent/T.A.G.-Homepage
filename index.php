@@ -87,46 +87,7 @@ Shadowbox.init({
 </div>
 
 <!--Top Footer Start-->
-<div id="top_footer">
-
-<div id="sitemap">
-<h3>Sitemap</h3>
-<ol>
-<li><a title="Home | Those Apple Guys" href="/">Home</a></li>
-<li><a title="About Those Apple Guys" href="about">About</a></li>
-<li><a title="Services | Those Apple Guys" href="services">Services</a></li>
-<li><a title="Contact Those Apple Guys" href="contact">Contact</a></li>
-</ol>
-</div>
-<div id="contact_info">
-	<h3>T.A.G. Us</h3>
-	<div id="a">
-	<h5>Ambler</h5>
-	<p id="maps" ><a title="33 Betsy Lane Ambler, PA 19002" target="_blank" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=33+Betsy+Lane++Ambler,+PA+19002&amp;sll=39.960107,-75.546906&amp;sspn=0.010247,0.022573&amp;ie=UTF8&amp;hq=&amp;hnear=33+Betsy+Ln,+Ambler,+Montgomery,+Pennsylvania+19002&amp;z=16">33 Betsy Lane</a></p>
-	<p><a title="33 Betsy Lane Ambler, PA 19002" target="_blank" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=33+Betsy+Lane++Ambler,+PA+19002&amp;sll=39.960107,-75.546906&amp;sspn=0.010247,0.022573&amp;ie=UTF8&amp;hq=&amp;hnear=33+Betsy+Ln,+Ambler,+Montgomery,+Pennsylvania+19002&amp;z=16">Ambler, PA 19002</a></p>
-	<p id="phone">(215) 645-4410</p>
-	</div>
-	<div id="wc">
-	<h5>West Chester</h5>
-	<p id="maps"><a title="101 Everest Circle West Chester, PA 19382" target="_blank" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=101+Everest+Circle++West+Chester,+PA+19382&amp;sll=37.0625,-95.677068&amp;sspn=43.172547,92.460937&amp;ie=UTF8&hq=&amp;hnear=101+Everest+Cir,+West+Chester,+Chester,+Pennsylvania+19382&amp;z=16">101 Everest Circle</a></p>
-	<p><a title="101 Everest Circle West Chester, PA 19382" target="_blank" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=101+Everest+Circle++West+Chester,+PA+19382&amp;sll=37.0625,-95.677068&amp;sspn=43.172547,92.460937&amp;ie=UTF8&hq=&amp;hnear=101+Everest+Cir,+West+Chester,+Chester,+Pennsylvania+19382&amp;z=16">West Chester, PA 19382</a></p>
-	<p id="phone">(610) 486-6165</p>
-</div>
-
-</div>
-<div id="email_sub">
-<img id="background" title="T.A.G. Me" alt="T.A.G. Me" src="images/backgrounds/bg_email.png" />
-<form name="formcheck" action="contact_submit.php" method="POST" onsubmit="return formCheck(this);">
-<h3>T.A.G. Me</h3> 
-<h5>Subscribe to our mailing list</h5>
-<input type="text" onFocus="this.value=''" title="Name" name="name" value="Name" size="20"><br /><br />
-<input type="text" onFocus="this.value=''" title="Email Address" name="email_address" value="Email Address" size="20"><br /><br />
-<input class="submit" title="Subscribe to our mailing list" type="submit" value="Send">
-</form>
-</div>
-</div>
-</div>
-
+<?php include('../includes/top_footer.php'); ?>
 <!--Footer Start-->
 <div id="footer">
 <p id="top">Those Apple Guys | Philadelphia Apple Specialist, Apple Computer Repair, Mac Computer Repair, West Chester, Ambler, PA</p>
