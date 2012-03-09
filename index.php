@@ -87,7 +87,7 @@ Shadowbox.init({
 </div>
 
 <!--Top Footer Start-->
-<?php include('../includes/top_footer.php'); ?>
+<?php include('/includes/top_footer.php'); ?>
 <!--Footer Start-->
 <div id="footer">
 <p id="top">Those Apple Guys | Philadelphia Apple Specialist, Apple Computer Repair, Mac Computer Repair, West Chester, Ambler, PA</p>
