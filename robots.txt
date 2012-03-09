@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /etc
 Disallow: /images
+Sitemap: http://app.wistia.com/sitemaps/211.xml
