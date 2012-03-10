@@ -1,4 +1,4 @@
 .DS\_Store
 **/.tmp*
 tmp/
-
+.sass-cache/
