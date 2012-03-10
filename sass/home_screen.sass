@@ -8,10 +8,15 @@
  *
  *-------------------------------------------------------------------
 
+@import "compass/css3", "compass/utilities"
+
+$content-margin: 2em
+$font: Georgia, "Times New Roman", Times, serif
+
 body#home
   background: url(../images/backgrounds/bg_home.png) repeat-x
 
-/*  ************* About_Us Layout  *************
+/*  ************* HOME: About_Us Layout  *************
 
 #about_us
   clear: both
@@ -48,6 +53,26 @@ body#home
 
 /*  ************* Content Layout  *************
 
+#description
+  +border-radius(10px)
+  +box-shadow(#d3d2d3 2px 3px 8px)
+  clear: left
+  float: left
+  width: 27em
+  padding: 1em
+  background: white no-repeat
+  h2
+    color: #525252
+    text-transform: uppercase
+    font: small-caps 260% Georgia, "Times New Roman", Times, serif
+  p
+    color: #282828
+    text-align: left
+    white-space: normal
+    font-family: $font
+    word-spacing: .2em
+    margin: 1em
+
 #container
   #content
     float: left
@@ -59,35 +84,15 @@ body#home
     padding-right: .5em
     background: transparent no-repeat
     padding-bottom: 2em
-  div#content
-    #description
-      clear: left
-      float: left
-      width: 27em
-      z-index: 0
-      padding: 1em
-      background: white no-repeat
-      -moz-border-radius: 20px
-      -webkit-border-radius: 20px
-      -moz-box-shadow: 2px 3px 8px #d3d2d3
-      -webkit-box-shadow: 2px 3px 8px #d3d2d3
-      p
-        color: #282828
-        padding: 1
-        text-align: left
-        white-space: normal
-        z-index: 1
-        font-family: Georgia, "Times New Roman", Times, serif
-        margin: 1em
-        word-spacing: .2em
-    #video_area
-      float: left
-      clear: none
-      width: 32em
-      z-index: 0
-      background: none no-repeat 05em 1em
-      padding-left: 1.5em
-      margin: 3em auto auto
+
+#video_area
+  float: left
+  clear: none
+  width: 32em
+  z-index: 0
+  background: none no-repeat 05em 1em
+  padding-left: 1.5em
+  margin: 3em auto auto
 
 #video_area object
   padding: 1.5em

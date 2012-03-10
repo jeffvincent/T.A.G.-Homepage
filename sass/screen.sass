@@ -8,15 +8,11 @@
  *
  *-------------------------------------------------------------------
 
-*
-  margin-top: 0
-  margin-left: 0
-  margin-bottom: 0
-  margin: 0
-  padding-bottom: 0
-  padding-left: 0
-  padding-right: 0
-  font-family: Georgia, "Times New Roman", Times, serif
+@import "compass/css3", "compass/utilities"
+@import "compass/reset"
+
+$content-margin: 2em
+$font: Georgia, "Times New Roman", Times, serif
 
 #service_info img.services_pics
   position: relative
@@ -26,16 +22,10 @@
   border-left: .1em solid gray
   margin-left: 1em
 
-html
-  height: 100%
-  z-index: 1
-  background-repeat: repeat-y
-
 body
   height: 100%
-  z-index: 1
-  background-repeat: repeat-y
-  background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x
+  background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x 
+  font-family: $font
 
 #container
   width: 1000px
@@ -62,27 +52,23 @@ img#guys
   font-size: 1px
   color: #fefdfb
   height: 131px
-
-#header a
-  text-decoration: none
-  font-weight: normal
-  font-style: normal
-  border: none
-
-#container #header img
-  &#header_logo
-    font-weight: normal
-    font-style: normal
+  a
     text-decoration: none
-    border: none
+  img#header_logo
     height: 90%
     position: relative
     margin-top: 1%
-  &#whitehead
+  img#whitehead
     float: right
     clear: left
     position: relative
     height: 129px
+  h1
+    width: 1px
+    height: 1px
+    color: fuchsia
+    top: -9999px
+    position: absolute
 
 img#quote
   float: right
@@ -91,12 +77,6 @@ img#quote
   right: -20px
   bottom: -53px
 
-#header h1
-  width: 1px
-  height: 1px
-  color: fuchsia
-  top: -9999px
-  position: absolute
 
 /*  ************* NavBar Layout  *************
 
@@ -116,8 +96,6 @@ img#quote
     padding: 0
     font: normal 120% Georgia, "Times New Roman", Times, serif
     margin-top: -1.8em
-
-#navbar
   ul
     list-style: none
     display: inline-block
@@ -146,63 +124,26 @@ img#quote
     background-image: url('../images/buttons/nav.png')
     text-indent: -9999px
     height: 45px
-    border-style: none
-    position: relative
   #home a
     width: 120px
     background-position: left top
+    &:hover
+      background-position: left bottom
   #about a
     width: 120px
     background-position: -120px top
+    &:hover
+      background-position: -120px bottom
   #services a
     width: 120px
     background-position: -240px top
+    &:hover
+      background-position: -240px bottom
   #contact a
     width: 120px
     background-position: -360px top
-  #home a:hover
-    width: 120px
-    background-position: left bottom
-  #about a:hover
-    width: 120px
-    background-position: -120px bottom
-  #services a:hover
-    width: 120px
-    background-position: -240px bottom
-  #contact a:hover
-    width: 120px
-    background-position: -360px bottom
-
-div
-  &#sitemap h3, &#contact_info h3
-    color: #515151
-    font: 2em Georgia, "Times New Roman", Times, serif
-  &#email_sub h3
-    color: #515151
-    font: 2em Georgia, "Times New Roman", Times, serif
-    padding-bottom: .5em
-
-#description p
-  color: #282828
-  padding: 1
-  text-align: left
-  white-space: normal
-  z-index: 1
-  font-family: Georgia, "Times New Roman", Times, serif
-  margin: 1em
-  word-spacing: .2em
-  em
-    font-style: normal
-    font-weight: normal
-
-#video object
-  width: 100%
-
-#description h2
-  color: #525252
-  z-index: 1
-  text-transform: uppercase
-  font: small-caps 260% Georgia, "Times New Roman", Times, serif
+    &:hover
+      background-position: -360px bottom
 
 img.bio_video
   position: absolute 
@@ -213,49 +154,29 @@ img.bio_video
 
 /*  ************* Content Layout  *************
 
-#container
-  #contact_locations
-    float: left
-    width: 100%
-    height: 100%
-    text-align: center
-    z-index: 2
-    background: transparent no-repeat
-    margin-top: 3em
-    padding: 0
-  div#contact_locations #ambler
-    clear: left
-    float: left
-    width: 46%
-    z-index: 0
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif
-    padding: 1em
-    background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center
-    -moz-border-radius: 10px
-    -webkit-border-radius: 10px
-    -moz-box-shadow: 2px 3px 8px #d3d2d3
-    -webkit-box-shadow: 2px 3px 8px #d3d2d3
-
-#contact_locations h2
-  width: 100%
+#contact_locations
   text-align: center
-  color: #515151
-  font: 200% Georgia, "Times New Roman", Times, serif
-  margin-bottom: .5em
+  background: transparent no-repeat
+  margin: 3em auto 2em auto
+  h2
+    width: 100%
+    text-align: center
+    color: #515151
+    font: 200% Georgia, "Times New Roman", Times, serif
+    margin-bottom: .5em
 
-#container div#contact_locations #westchester
-  clear: right
-  float: right
+.contact_bubbles
+  +border-radius(10px)
+  +box-shadow(#d3d2d3 2px 3px 8px)
   width: 46%
-  z-index: 0
-  font-family: "Lucida Grande", Lucida, Verdana, sans-serif
-  padding: 1em
+  font-family: $font
   position: relative
+  padding: 1em
   background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center
-  -moz-border-radius: 10px
-  -webkit-border-radius: 10px
-  -moz-box-shadow: 2px 3px 8px #d3d2d3
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3
+#ambler
+  float: left
+#westchester
+  float: right
 
 #contact_locations img
   float: left
@@ -274,19 +195,35 @@ img#ichat
 
 /*  ************* Bio Layout  *************
 
-div.bio
+#bio_group
   width: 100%
-  text-align: center
-  z-index: 2
-  background: transparent no-repeat
-  margin-top: 2.8em
   height: 100%
+  margin-top: $content-margin
+  margin-bottom: $content-margin
+
+.bio
+  +border-radius(10px)
+  +box-shadow(#d3d2d3 2px 3px 8px)
+  text-align: center
   display: block
-  margin-bottom: 2em
-  .info
-    text-align: center
-    float: right
-    width: 46%
+  padding: 1em
+  font-family: $font
+  position: relative
+  width: 46%
+#chip
+  clear: left
+  float: left
+  background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em
+#jay
+  clear: right
+  float: right
+  background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em
+
+.info
+  text-align: center
+  float: right
+  width: 46%
+  font-family: $font
   h2
     color: #525252
     z-index: 1
@@ -297,65 +234,37 @@ div.bio
     text-align: center
     white-space: normal
     z-index: 1
-    font-family: Georgia, "Times New Roman", Times, serif
     word-spacing: .2em
     margin: 0
     padding-left: 1em
     padding-right: 1em
-  blockquote
-    margin: 2em 0.5em 0.5em
-    font-style: italic
-    font-family: Georgia, "Times New Roman", Times, serif
-    &:before
-      float: left
-      font-family: Georgia
-      margin-bottom: -10em
-      font-size: 300%
-      content: '"'
-      color: #d3d2d3
-      opacity: 0.5
-      margin-left: -0.9em
-      margin-top: -0.5em
-      position: relative
-      width: 50%
-    &:after
-      float: right
-      font-family: Georgia
-      content: '"'
-      font-size: 300%
-      color: #d3d2d3
-      opacity: 0.49
-      padding-right: .2em
-      height: .4em
-  #chip
-    clear: left
-    padding: 0.5em
+
+blockquote.info
+  margin: 2em auto 
+  font-style: italic
+  width: 100%
+  &:before
     float: left
-    width: 46%
-    z-index: 0
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif
-    padding: 1em
-    background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em
-    -moz-border-radius: 10px
-    -webkit-border-radius: 10px
-    -moz-box-shadow: 2px 3px 8px #d3d2d3
-    -webkit-box-shadow: 2px 3px 8px #d3d2d3
-    height: 100%
+    font-family: Georgia
+    margin-bottom: -10em
+    font-size: 300%
+    content: '"'
+    color: #d3d2d3
+    opacity: 0.5
+    margin-left: -0.9em
+    margin-top: -0.5em
     position: relative
-  #jay
-    clear: right
+    width: 50%
+  &:after
     float: right
-    width: 46%
-    z-index: 0
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif
-    padding: 1em
-    background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em
-    -moz-border-radius: 10px
-    -webkit-border-radius: 10px
-    -moz-box-shadow: 2px 3px 8px #d3d2d3
-    -webkit-box-shadow: 2px 3px 8px #d3d2d3
-    height: 100%
-    position: relative
+    font-family: Georgia
+    content: '"'
+    font-size: 300%
+    color: #d3d2d3
+    opacity: 0.49
+    padding-right: .2em
+    height: .4em
+
   img
     &#chip_pic, &#jay_pic
       width: 225px
@@ -411,6 +320,14 @@ img
   clear: left
 
 /*  ************* Top Footer Layout  *************
+div
+  &#sitemap h3, &#contact_info h3
+    color: #515151
+    font: 2em Georgia, "Times New Roman", Times, serif
+  &#email_sub h3
+    color: #515151
+    font: 2em Georgia, "Times New Roman", Times, serif
+    padding-bottom: .5em
 
 #container #top_footer
   width: 97%
@@ -440,7 +357,8 @@ div
     -moz-box-shadow: 2px 3px 8px #d3d2d3
     -webkit-box-shadow: 2px 3px 8px #d3d2d3
     border: .1em solid #d3d2d3
-    margin-top: 3em
+    margin-top: $content-margin
+    margin-bottom: $content-margin
     background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom
   &#service_info
     float: right
@@ -488,16 +406,15 @@ div
     background: url(../images/backgrounds/ol_bg.png) repeat-y left top
     clear: both
     -moz-border-radius-bottomleft: 10px
-    -webkit-border-bottom-left-radius: 10px
-    li
-      padding-top: 1em
-      padding-bottom: 1em
-      border-bottom: .1em solid #d3d2d3
-      color: #817b7b
-      font: bold 1em Georgia, "Times New Roman", Times, serif
-  #last ol li
-    border: none
-    color: #f00
+    -webkit-border-bottom-left-radius: 10px      
+  li
+    padding-top: 1em
+    padding-bottom: 1em
+    border-bottom: .1em solid #d3d2d3
+    color: #817b7b
+    font: bold 1em Georgia, "Times New Roman", Times, serif
+
+
 
 #serivces li
   padding-top: 1em

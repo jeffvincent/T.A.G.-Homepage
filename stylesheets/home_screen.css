@@ -7,13 +7,13 @@
  *Primary use:	Those Apple Guys 
  *
  *------------------------------------------------------------------- */
-/* line 11, ../sass/home_screen.sass */
+/* line 16, ../sass/home_screen.sass */
 body#home {
   background: url(../images/backgrounds/bg_home.png) repeat-x;
 }
 
-/*  ************* About_Us Layout  ************* */
-/* line 16, ../sass/home_screen.sass */
+/*  ************* HOME: About_Us Layout  ************* */
+/* line 21, ../sass/home_screen.sass */
 #about_us {
   clear: both;
   padding-bottom: 10%;
@@ -23,24 +23,24 @@ body#home {
   width: 100%;
   height: 10.95em;
 }
-/* line 24, ../sass/home_screen.sass */
+/* line 29, ../sass/home_screen.sass */
 #about_us #guys_shadow {
   float: left;
   width: 28.5em;
 }
-/* line 27, ../sass/home_screen.sass */
+/* line 32, ../sass/home_screen.sass */
 #about_us #guys_shadow img {
   display: block;
   position: absolute;
   width: 28.5em;
   padding-top: 0.3em;
 }
-/* line 32, ../sass/home_screen.sass */
+/* line 37, ../sass/home_screen.sass */
 #about_us #computernerds {
   float: right;
   text-align: center;
 }
-/* line 35, ../sass/home_screen.sass */
+/* line 40, ../sass/home_screen.sass */
 #about_us #computernerds img#computernerds {
   display: block;
   position: relative;
@@ -48,7 +48,7 @@ body#home {
   top: 5em;
   left: 2em;
 }
-/* line 41, ../sass/home_screen.sass */
+/* line 46, ../sass/home_screen.sass */
 #about_us #computernerds img#who_we_are {
   position: relative;
   width: 12em;
@@ -59,7 +59,41 @@ body#home {
 }
 
 /*  ************* Content Layout  ************* */
-/* line 52, ../sass/home_screen.sass */
+/* line 56, ../sass/home_screen.sass */
+#description {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: #d3d2d3 2px 3px 8px;
+  -webkit-box-shadow: #d3d2d3 2px 3px 8px;
+  -o-box-shadow: #d3d2d3 2px 3px 8px;
+  box-shadow: #d3d2d3 2px 3px 8px;
+  clear: left;
+  float: left;
+  width: 27em;
+  padding: 1em;
+  background: white no-repeat;
+}
+/* line 64, ../sass/home_screen.sass */
+#description h2 {
+  color: #525252;
+  text-transform: uppercase;
+  font: small-caps 260% Georgia, "Times New Roman", Times, serif;
+}
+/* line 68, ../sass/home_screen.sass */
+#description p {
+  color: #282828;
+  text-align: left;
+  white-space: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 0.2em;
+  margin: 1em;
+}
+
+/* line 77, ../sass/home_screen.sass */
 #container #content {
   float: left;
   width: 100%;
@@ -71,32 +105,9 @@ body#home {
   background: transparent no-repeat;
   padding-bottom: 2em;
 }
-/* line 63, ../sass/home_screen.sass */
-#container div#content #description {
-  clear: left;
-  float: left;
-  width: 27em;
-  z-index: 0;
-  padding: 1em;
-  background: white no-repeat;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-box-shadow: 2px 3px 8px #d3d2d3;
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3;
-}
-/* line 74, ../sass/home_screen.sass */
-#container div#content #description p {
-  color: #282828;
-  padding: 1;
-  text-align: left;
-  white-space: normal;
-  z-index: 1;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 1em;
-  word-spacing: 0.2em;
-}
-/* line 83, ../sass/home_screen.sass */
-#container div#content #video_area {
+
+/* line 88, ../sass/home_screen.sass */
+#video_area {
   float: left;
   clear: none;
   width: 32em;
@@ -106,18 +117,18 @@ body#home {
   margin: 3em auto auto;
 }
 
-/* line 92, ../sass/home_screen.sass */
+/* line 97, ../sass/home_screen.sass */
 #video_area object {
   padding: 1.5em;
 }
 
-/* line 95, ../sass/home_screen.sass */
+/* line 100, ../sass/home_screen.sass */
 img#video {
   width: 100%;
 }
 
 /*  ************* Campaign Layout  ************* */
-/* line 101, ../sass/home_screen.sass */
+/* line 106, ../sass/home_screen.sass */
 #container #campaign {
   float: left;
   width: 100%;
@@ -128,7 +139,7 @@ img#video {
   padding-top: 2em;
   margin-top: 2em;
 }
-/* line 112, ../sass/home_screen.sass */
+/* line 117, ../sass/home_screen.sass */
 #container div#campaign#tagus blockquote {
   color: #4a4a4a;
   font-style: italic;
@@ -140,14 +151,14 @@ img#video {
   width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 122, ../sass/home_screen.sass */
+/* line 127, ../sass/home_screen.sass */
 #container div#campaign #video_promo {
   clear: left;
   float: left;
   width: 50%;
   padding-right: 1em;
 }
-/* line 127, ../sass/home_screen.sass */
+/* line 132, ../sass/home_screen.sass */
 #container div#campaign #tagus {
   float: right;
   width: 40%;
@@ -157,7 +168,7 @@ img#video {
   top: 4em;
   right: 2em;
 }
-/* line 135, ../sass/home_screen.sass */
+/* line 140, ../sass/home_screen.sass */
 #container div#top_footer #backgrounds {
   float: right;
   width: 24em;
@@ -170,7 +181,7 @@ img#video {
   left: 45em;
 }
 
-/* line 146, ../sass/home_screen.sass */
+/* line 151, ../sass/home_screen.sass */
 #video_promo img.promos {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -179,7 +190,7 @@ img#video {
   padding-left: 0.5em;
 }
 
-/* line 153, ../sass/home_screen.sass */
+/* line 158, ../sass/home_screen.sass */
 #backgrounds img#background {
   position: absolute;
   z-index: -1;

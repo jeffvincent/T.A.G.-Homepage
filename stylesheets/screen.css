@@ -7,19 +7,72 @@
  *Primary use:	Those Apple Guys 
  *
  *------------------------------------------------------------------- */
-/* line 11, ../sass/screen.sass */
-* {
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 0;
+/* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-/* line 21, ../sass/screen.sass */
+/* line 20, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 17, ../sass/screen.sass */
 #service_info img.services_pics {
   position: relative;
   float: right;
@@ -29,22 +82,14 @@
   margin-left: 1em;
 }
 
-/* line 29, ../sass/screen.sass */
-html {
-  height: 100%;
-  z-index: 1;
-  background-repeat: repeat-y;
-}
-
-/* line 34, ../sass/screen.sass */
+/* line 25, ../sass/screen.sass */
 body {
   height: 100%;
-  z-index: 1;
-  background-repeat: repeat-y;
   background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 #container {
   width: 1000px;
   padding: 0;
@@ -54,13 +99,13 @@ body {
   margin: 0 auto;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 html > body #container {
   height: auto;
   float: none;
 }
 
-/* line 52, ../sass/screen.sass */
+/* line 42, ../sass/screen.sass */
 img#guys {
   position: absolute;
   margin-top: 24%;
@@ -69,41 +114,40 @@ img#guys {
 }
 
 /*  ************* Header Layout  ************* */
-/* line 60, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 #container #header {
   clear: both;
   font-size: 1px;
   color: #fefdfb;
   height: 131px;
 }
-
-/* line 66, ../sass/screen.sass */
-#header a {
+/* line 55, ../sass/screen.sass */
+#container #header a {
   text-decoration: none;
-  font-weight: normal;
-  font-style: normal;
-  border: none;
 }
-
-/* line 73, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 #container #header img#header_logo {
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  border: none;
   height: 90%;
   position: relative;
   margin-top: 1%;
 }
-/* line 81, ../sass/screen.sass */
+/* line 61, ../sass/screen.sass */
 #container #header img#whitehead {
   float: right;
   clear: left;
   position: relative;
   height: 129px;
 }
+/* line 66, ../sass/screen.sass */
+#container #header h1 {
+  width: 1px;
+  height: 1px;
+  color: fuchsia;
+  top: -9999px;
+  position: absolute;
+}
 
-/* line 87, ../sass/screen.sass */
+/* line 73, ../sass/screen.sass */
 img#quote {
   float: right;
   clear: left;
@@ -112,17 +156,8 @@ img#quote {
   bottom: -53px;
 }
 
-/* line 94, ../sass/screen.sass */
-#header h1 {
-  width: 1px;
-  height: 1px;
-  color: fuchsia;
-  top: -9999px;
-  position: absolute;
-}
-
 /*  ************* NavBar Layout  ************* */
-/* line 103, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 #container #navbar {
   background: #f8f4ea url(../images/buttons/menu_bg.png) repeat-x;
   z-index: 0;
@@ -133,7 +168,7 @@ img#quote {
   clear: both;
   position: relative;
 }
-/* line 112, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 #container #navbar h2 {
   position: absolute;
   color: #987c5c;
@@ -142,9 +177,8 @@ img#quote {
   font: normal 120% Georgia, "Times New Roman", Times, serif;
   margin-top: -1.8em;
 }
-
-/* line 121, ../sass/screen.sass */
-#navbar ul {
+/* line 99, ../sass/screen.sass */
+#container #navbar ul {
   list-style: none;
   display: inline-block;
   text-indent: 0;
@@ -155,16 +189,16 @@ img#quote {
   background-color: transparent;
   padding: 0;
 }
-/* line 131, ../sass/screen.sass */
-#navbar li {
+/* line 109, ../sass/screen.sass */
+#container #navbar li {
   list-style: none;
   display: inline;
   padding-top: 0;
   height: 45px;
   float: left;
 }
-/* line 137, ../sass/screen.sass */
-#navbar a {
+/* line 115, ../sass/screen.sass */
+#container #navbar a {
   display: block;
   padding: 0;
   margin: 0;
@@ -176,93 +210,45 @@ img#quote {
   background-image: url("../images/buttons/nav.png");
   text-indent: -9999px;
   height: 45px;
-  border-style: none;
-  position: relative;
 }
-/* line 151, ../sass/screen.sass */
-#navbar #home a {
+/* line 127, ../sass/screen.sass */
+#container #navbar #home a {
   width: 120px;
   background-position: left top;
 }
-/* line 154, ../sass/screen.sass */
-#navbar #about a {
+/* line 130, ../sass/screen.sass */
+#container #navbar #home a:hover {
+  background-position: left bottom;
+}
+/* line 132, ../sass/screen.sass */
+#container #navbar #about a {
   width: 120px;
   background-position: -120px top;
 }
-/* line 157, ../sass/screen.sass */
-#navbar #services a {
+/* line 135, ../sass/screen.sass */
+#container #navbar #about a:hover {
+  background-position: -120px bottom;
+}
+/* line 137, ../sass/screen.sass */
+#container #navbar #services a {
   width: 120px;
   background-position: -240px top;
 }
-/* line 160, ../sass/screen.sass */
-#navbar #contact a {
+/* line 140, ../sass/screen.sass */
+#container #navbar #services a:hover {
+  background-position: -240px bottom;
+}
+/* line 142, ../sass/screen.sass */
+#container #navbar #contact a {
   width: 120px;
   background-position: -360px top;
 }
-/* line 163, ../sass/screen.sass */
-#navbar #home a:hover {
-  width: 120px;
-  background-position: left bottom;
-}
-/* line 166, ../sass/screen.sass */
-#navbar #about a:hover {
-  width: 120px;
-  background-position: -120px bottom;
-}
-/* line 169, ../sass/screen.sass */
-#navbar #services a:hover {
-  width: 120px;
-  background-position: -240px bottom;
-}
-/* line 172, ../sass/screen.sass */
-#navbar #contact a:hover {
-  width: 120px;
+/* line 145, ../sass/screen.sass */
+#container #navbar #contact a:hover {
   background-position: -360px bottom;
 }
 
-/* line 177, ../sass/screen.sass */
-div#sitemap h3, div#contact_info h3 {
-  color: #515151;
-  font: 2em Georgia, "Times New Roman", Times, serif;
-}
-/* line 180, ../sass/screen.sass */
-div#email_sub h3 {
-  color: #515151;
-  font: 2em Georgia, "Times New Roman", Times, serif;
-  padding-bottom: 0.5em;
-}
-
-/* line 185, ../sass/screen.sass */
-#description p {
-  color: #282828;
-  padding: 1;
-  text-align: left;
-  white-space: normal;
-  z-index: 1;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 1em;
-  word-spacing: 0.2em;
-}
-/* line 194, ../sass/screen.sass */
-#description p em {
-  font-style: normal;
-  font-weight: normal;
-}
-
-/* line 198, ../sass/screen.sass */
-#video object {
-  width: 100%;
-}
-
-/* line 201, ../sass/screen.sass */
-#description h2 {
-  color: #525252;
-  z-index: 1;
-  text-transform: uppercase;
-  font: small-caps 260% Georgia, "Times New Roman", Times, serif;
-}
-
-/* line 207, ../sass/screen.sass */
+/* line 148, ../sass/screen.sass */
 img.bio_video {
   position: absolute;
   width: 8em;
@@ -272,33 +258,13 @@ img.bio_video {
 }
 
 /*  ************* Content Layout  ************* */
-/* line 217, ../sass/screen.sass */
-#container #contact_locations {
-  float: left;
-  width: 100%;
-  height: 100%;
+/* line 157, ../sass/screen.sass */
+#contact_locations {
   text-align: center;
-  z-index: 2;
   background: transparent no-repeat;
-  margin-top: 3em;
-  padding: 0;
+  margin: 3em auto 2em auto;
 }
-/* line 226, ../sass/screen.sass */
-#container div#contact_locations #ambler {
-  clear: left;
-  float: left;
-  width: 46%;
-  z-index: 0;
-  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-  padding: 1em;
-  background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-box-shadow: 2px 3px 8px #d3d2d3;
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3;
-}
-
-/* line 239, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 #contact_locations h2 {
   width: 100%;
   text-align: center;
@@ -307,23 +273,36 @@ img.bio_video {
   margin-bottom: 0.5em;
 }
 
-/* line 246, ../sass/screen.sass */
-#container div#contact_locations #westchester {
-  clear: right;
-  float: right;
-  width: 46%;
-  z-index: 0;
-  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-  padding: 1em;
-  position: relative;
-  background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center;
+/* line 168, ../sass/screen.sass */
+.contact_bubbles {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  -moz-box-shadow: 2px 3px 8px #d3d2d3;
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: #d3d2d3 2px 3px 8px;
+  -webkit-box-shadow: #d3d2d3 2px 3px 8px;
+  -o-box-shadow: #d3d2d3 2px 3px 8px;
+  box-shadow: #d3d2d3 2px 3px 8px;
+  width: 46%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  padding: 1em;
+  background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center;
 }
 
-/* line 260, ../sass/screen.sass */
+/* line 176, ../sass/screen.sass */
+#ambler {
+  float: left;
+}
+
+/* line 178, ../sass/screen.sass */
+#westchester {
+  float: right;
+}
+
+/* line 181, ../sass/screen.sass */
 #contact_locations img {
   float: left;
   position: relative;
@@ -331,7 +310,7 @@ img.bio_video {
   border-style: none;
 }
 
-/* line 266, ../sass/screen.sass */
+/* line 187, ../sass/screen.sass */
 img#ichat {
   float: left;
   width: 28%;
@@ -343,50 +322,82 @@ img#ichat {
 }
 
 /*  ************* Bio Layout  ************* */
-/* line 277, ../sass/screen.sass */
-div.bio {
+/* line 198, ../sass/screen.sass */
+#bio_group {
   width: 100%;
-  text-align: center;
-  z-index: 2;
-  background: transparent no-repeat;
-  margin-top: 2.8em;
   height: 100%;
-  display: block;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
-/* line 286, ../sass/screen.sass */
-div.bio .info {
+
+/* line 204, ../sass/screen.sass */
+.bio {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: #d3d2d3 2px 3px 8px;
+  -webkit-box-shadow: #d3d2d3 2px 3px 8px;
+  -o-box-shadow: #d3d2d3 2px 3px 8px;
+  box-shadow: #d3d2d3 2px 3px 8px;
+  text-align: center;
+  display: block;
+  padding: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  width: 46%;
+}
+
+/* line 213, ../sass/screen.sass */
+#chip {
+  clear: left;
+  float: left;
+  background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em;
+}
+
+/* line 217, ../sass/screen.sass */
+#jay {
+  clear: right;
+  float: right;
+  background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em;
+}
+
+/* line 222, ../sass/screen.sass */
+.info {
   text-align: center;
   float: right;
   width: 46%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 290, ../sass/screen.sass */
-div.bio h2 {
+/* line 227, ../sass/screen.sass */
+.info h2 {
   color: #525252;
   z-index: 1;
   text-transform: capitalize;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 295, ../sass/screen.sass */
-div.bio p {
+/* line 232, ../sass/screen.sass */
+.info p {
   color: #282828;
   text-align: center;
   white-space: normal;
   z-index: 1;
-  font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
   margin: 0;
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 305, ../sass/screen.sass */
-div.bio blockquote {
-  margin: 2em 0.5em 0.5em;
+
+/* line 242, ../sass/screen.sass */
+blockquote.info {
+  margin: 2em auto;
   font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
 }
-/* line 309, ../sass/screen.sass */
-div.bio blockquote:before {
+/* line 246, ../sass/screen.sass */
+blockquote.info:before {
   float: left;
   font-family: Georgia;
   margin-bottom: -10em;
@@ -399,8 +410,8 @@ div.bio blockquote:before {
   position: relative;
   width: 50%;
 }
-/* line 321, ../sass/screen.sass */
-div.bio blockquote:after {
+/* line 258, ../sass/screen.sass */
+blockquote.info:after {
   float: right;
   font-family: Georgia;
   content: '"';
@@ -410,51 +421,18 @@ div.bio blockquote:after {
   padding-right: 0.2em;
   height: 0.4em;
 }
-/* line 330, ../sass/screen.sass */
-div.bio #chip {
-  clear: left;
-  padding: 0.5em;
-  float: left;
-  width: 46%;
-  z-index: 0;
-  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-  padding: 1em;
-  background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-box-shadow: 2px 3px 8px #d3d2d3;
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3;
-  height: 100%;
-  position: relative;
-}
-/* line 345, ../sass/screen.sass */
-div.bio #jay {
-  clear: right;
-  float: right;
-  width: 46%;
-  z-index: 0;
-  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-  padding: 1em;
-  background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-box-shadow: 2px 3px 8px #d3d2d3;
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3;
-  height: 100%;
-  position: relative;
-}
-/* line 360, ../sass/screen.sass */
-div.bio img#chip_pic, div.bio img#jay_pic {
+/* line 269, ../sass/screen.sass */
+blockquote.info img#chip_pic, blockquote.info img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 364, ../sass/screen.sass */
+/* line 273, ../sass/screen.sass */
 .bio_pic {
   float: left;
 }
 
-/* line 367, ../sass/screen.sass */
+/* line 276, ../sass/screen.sass */
 img#apple_logo {
   width: 8%;
   float: left;
@@ -463,13 +441,13 @@ img#apple_logo {
   left: 26.5em;
 }
 
-/* line 375, ../sass/screen.sass */
+/* line 284, ../sass/screen.sass */
 img#chip_pic, img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 379, ../sass/screen.sass */
+/* line 288, ../sass/screen.sass */
 #bio h2 {
   color: #525252;
   z-index: 1;
@@ -477,7 +455,7 @@ img#chip_pic, img#jay_pic {
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 385, ../sass/screen.sass */
+/* line 294, ../sass/screen.sass */
 #contact_locations h3 {
   color: #515151;
   text-transform: capitalize;
@@ -485,7 +463,7 @@ img#chip_pic, img#jay_pic {
   margin-bottom: 0.5em;
 }
 
-/* line 391, ../sass/screen.sass */
+/* line 300, ../sass/screen.sass */
 #tagus blockquote p {
   clear: none;
   position: relative;
@@ -493,7 +471,7 @@ img#chip_pic, img#jay_pic {
   color: gray;
 }
 
-/* line 397, ../sass/screen.sass */
+/* line 306, ../sass/screen.sass */
 #container div#top_footer #backgrounds {
   float: left;
   clear: right;
@@ -501,7 +479,7 @@ img#chip_pic, img#jay_pic {
   width: 9.9em;
 }
 
-/* line 403, ../sass/screen.sass */
+/* line 312, ../sass/screen.sass */
 #backgrounds img#background {
   width: 20em;
   position: relative;
@@ -514,7 +492,19 @@ img#chip_pic, img#jay_pic {
 }
 
 /*  ************* Top Footer Layout  ************* */
-/* line 415, ../sass/screen.sass */
+/* line 324, ../sass/screen.sass */
+div#sitemap h3, div#contact_info h3 {
+  color: #515151;
+  font: 2em Georgia, "Times New Roman", Times, serif;
+}
+/* line 327, ../sass/screen.sass */
+div#email_sub h3 {
+  color: #515151;
+  font: 2em Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 0.5em;
+}
+
+/* line 332, ../sass/screen.sass */
 #container #top_footer {
   width: 97%;
   height: 100%;
@@ -532,7 +522,7 @@ img#chip_pic, img#jay_pic {
   padding: 1em;
 }
 
-/* line 432, ../sass/screen.sass */
+/* line 349, ../sass/screen.sass */
 div#services {
   display: block;
   position: relative;
@@ -544,10 +534,11 @@ div#services {
   -moz-box-shadow: 2px 3px 8px #d3d2d3;
   -webkit-box-shadow: 2px 3px 8px #d3d2d3;
   border: 0.1em solid #d3d2d3;
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom;
 }
-/* line 445, ../sass/screen.sass */
+/* line 363, ../sass/screen.sass */
 div#service_info {
   float: right;
   height: 100%;
@@ -557,7 +548,7 @@ div#service_info {
   width: 71%;
 }
 
-/* line 454, ../sass/screen.sass */
+/* line 372, ../sass/screen.sass */
 #service_info p {
   font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
@@ -565,7 +556,7 @@ div#service_info {
   line-height: 150%;
   background-color: transparent;
 }
-/* line 460, ../sass/screen.sass */
+/* line 378, ../sass/screen.sass */
 #service_info h4 {
   text-align: center;
   text-transform: uppercase;
@@ -576,7 +567,7 @@ div#service_info {
   letter-spacing: 0.06em;
 }
 
-/* line 470, ../sass/screen.sass */
+/* line 388, ../sass/screen.sass */
 #services h1 {
   display: block;
   border-bottom: 0.1em solid #d3d2d3;
@@ -587,7 +578,7 @@ div#service_info {
   width: 92%;
   background: url(../images/backgrounds/h1_bg.png) repeat-x center top;
 }
-/* line 479, ../sass/screen.sass */
+/* line 397, ../sass/screen.sass */
 #services ol {
   float: left;
   display: block;
@@ -602,27 +593,22 @@ div#service_info {
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
 }
-/* line 492, ../sass/screen.sass */
-#services ol li {
+/* line 410, ../sass/screen.sass */
+#services li {
   padding-top: 1em;
   padding-bottom: 1em;
   border-bottom: 0.1em solid #d3d2d3;
   color: #817b7b;
   font: bold 1em Georgia, "Times New Roman", Times, serif;
 }
-/* line 498, ../sass/screen.sass */
-#services #last ol li {
-  border: none;
-  color: red;
-}
 
-/* line 502, ../sass/screen.sass */
+/* line 419, ../sass/screen.sass */
 #serivces li {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-/* line 506, ../sass/screen.sass */
+/* line 423, ../sass/screen.sass */
 #container div#top_footer #sitemap {
   clear: left;
   float: left;
@@ -633,7 +619,7 @@ div#service_info {
   position: relative;
   margin-left: 10px;
 }
-/* line 515, ../sass/screen.sass */
+/* line 432, ../sass/screen.sass */
 #container div#top_footer #sitemap ol li {
   list-style-position: inside;
   list-style-type: none;
@@ -645,19 +631,19 @@ div#service_info {
   opacity: 1;
   line-height: 2.3em;
 }
-/* line 525, ../sass/screen.sass */
+/* line 442, ../sass/screen.sass */
 #container div#top_footer #sitemap ol li:last-child {
   border-bottom: 0;
 }
 
-/* line 528, ../sass/screen.sass */
+/* line 445, ../sass/screen.sass */
 a {
   text-decoration: none;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #525252;
 }
 
-/* line 533, ../sass/screen.sass */
+/* line 450, ../sass/screen.sass */
 #container div#top_footer #contact_info {
   float: left;
   width: 520px;
@@ -667,7 +653,7 @@ a {
   height: 100%;
 }
 
-/* line 542, ../sass/screen.sass */
+/* line 459, ../sass/screen.sass */
 div#a {
   clear: left;
   display: block;
@@ -679,7 +665,7 @@ div#a {
   width: 240px;
   height: 100%;
 }
-/* line 552, ../sass/screen.sass */
+/* line 469, ../sass/screen.sass */
 div#wc {
   width: 225px;
   clear: right;
@@ -691,7 +677,7 @@ div#wc {
   margin-top: 1em;
   height: 100%;
 }
-/* line 562, ../sass/screen.sass */
+/* line 479, ../sass/screen.sass */
 div#contact_info p {
   width: 95%;
   height: 100%;
@@ -707,18 +693,18 @@ div#contact_info p {
   padding-right: 0;
 }
 
-/* line 576, ../sass/screen.sass */
+/* line 493, ../sass/screen.sass */
 #contact_info a {
   text-decoration: none;
   color: #525252;
 }
 
-/* line 580, ../sass/screen.sass */
+/* line 497, ../sass/screen.sass */
 p#maps {
   background: url(../images/buttons/maps.png) no-repeat;
 }
 
-/* line 584, ../sass/screen.sass */
+/* line 501, ../sass/screen.sass */
 #contact_locations a p, #contact_locations p a {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
@@ -730,7 +716,7 @@ p#maps {
   padding: 0 0 0.5em;
   text-align: center;
 }
-/* line 594, ../sass/screen.sass */
+/* line 511, ../sass/screen.sass */
 #contact_locations h4 {
   color: black;
   text-align: left;
@@ -742,7 +728,7 @@ p#maps {
   font-weight: bold;
 }
 
-/* line 604, ../sass/screen.sass */
+/* line 521, ../sass/screen.sass */
 h5 {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.6em;
@@ -750,18 +736,18 @@ h5 {
   position: relative;
 }
 
-/* line 610, ../sass/screen.sass */
+/* line 527, ../sass/screen.sass */
 #sitemap ol {
   margin-top: 1em;
 }
 
-/* line 613, ../sass/screen.sass */
+/* line 530, ../sass/screen.sass */
 #phone {
   background: url(../images/buttons/phone.png) no-repeat 0 50%;
   margin-top: 0.5em;
 }
 
-/* line 617, ../sass/screen.sass */
+/* line 534, ../sass/screen.sass */
 #container div#top_footer #email_sub {
   width: 10.3em;
   clear: none;
@@ -771,7 +757,7 @@ h5 {
   padding: 1em;
 }
 
-/* line 625, ../sass/screen.sass */
+/* line 542, ../sass/screen.sass */
 #email_sub form input {
   width: 100%;
   height: 1.5em;
@@ -781,7 +767,7 @@ h5 {
   color: gray;
 }
 
-/* line 634, ../sass/screen.sass */
+/* line 551, ../sass/screen.sass */
 #email_sub form input.submit {
   color: gray;
   width: 40%;
@@ -792,7 +778,7 @@ h5 {
 }
 
 /*  ************* Footer Layout  ************* */
-/* line 644, ../sass/screen.sass */
+/* line 561, ../sass/screen.sass */
 #footer {
   clear: both;
   width: 100%;
@@ -807,18 +793,18 @@ h5 {
   margin-bottom: auto;
 }
 
-/* line 657, ../sass/screen.sass */
+/* line 574, ../sass/screen.sass */
 p#top {
   background: url(../images/backgrounds/footer_line.png) no-repeat center bottom;
 }
 
-/* line 661, ../sass/screen.sass */
+/* line 578, ../sass/screen.sass */
 #footer > p {
   padding: 2em;
   position: relative;
   color: #f8f4ea;
 }
-/* line 665, ../sass/screen.sass */
+/* line 582, ../sass/screen.sass */
 #footer p a {
   color: white;
 }
