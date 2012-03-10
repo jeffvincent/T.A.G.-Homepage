@@ -53,14 +53,13 @@ body#home {
   position: relative;
   width: 12em;
   margin: 1em auto;
-  border-style: none;
   z-index: 2;
   top: 10em;
   left: 25em;
 }
 
 /*  ************* Content Layout  ************* */
-/* line 54, ../sass/home_screen.sass */
+/* line 52, ../sass/home_screen.sass */
 #container #content {
   float: left;
   width: 100%;
@@ -72,8 +71,8 @@ body#home {
   background: transparent no-repeat;
   padding-bottom: 2em;
 }
-/* line 65, ../sass/home_screen.sass */
-#container div#content #discription {
+/* line 63, ../sass/home_screen.sass */
+#container div#content #description {
   clear: left;
   float: left;
   width: 27em;
@@ -85,8 +84,8 @@ body#home {
   -moz-box-shadow: 2px 3px 8px #d3d2d3;
   -webkit-box-shadow: 2px 3px 8px #d3d2d3;
 }
-/* line 76, ../sass/home_screen.sass */
-#container div#content #discription p {
+/* line 74, ../sass/home_screen.sass */
+#container div#content #description p {
   color: #282828;
   padding: 1;
   text-align: left;
@@ -96,7 +95,7 @@ body#home {
   margin: 1em;
   word-spacing: 0.2em;
 }
-/* line 85, ../sass/home_screen.sass */
+/* line 83, ../sass/home_screen.sass */
 #container div#content #video_area {
   float: left;
   clear: none;
@@ -107,18 +106,18 @@ body#home {
   margin: 3em auto auto;
 }
 
-/* line 94, ../sass/home_screen.sass */
+/* line 92, ../sass/home_screen.sass */
 #video_area object {
   padding: 1.5em;
 }
 
-/* line 97, ../sass/home_screen.sass */
+/* line 95, ../sass/home_screen.sass */
 img#video {
   width: 100%;
 }
 
 /*  ************* Campaign Layout  ************* */
-/* line 103, ../sass/home_screen.sass */
+/* line 101, ../sass/home_screen.sass */
 #container #campaign {
   float: left;
   width: 100%;
@@ -129,7 +128,7 @@ img#video {
   padding-top: 2em;
   margin-top: 2em;
 }
-/* line 114, ../sass/home_screen.sass */
+/* line 112, ../sass/home_screen.sass */
 #container div#campaign#tagus blockquote {
   color: #4a4a4a;
   font-style: italic;
@@ -141,14 +140,14 @@ img#video {
   width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 124, ../sass/home_screen.sass */
+/* line 122, ../sass/home_screen.sass */
 #container div#campaign #video_promo {
   clear: left;
   float: left;
   width: 50%;
   padding-right: 1em;
 }
-/* line 129, ../sass/home_screen.sass */
+/* line 127, ../sass/home_screen.sass */
 #container div#campaign #tagus {
   float: right;
   width: 40%;
@@ -158,7 +157,7 @@ img#video {
   top: 4em;
   right: 2em;
 }
-/* line 137, ../sass/home_screen.sass */
+/* line 135, ../sass/home_screen.sass */
 #container div#top_footer #backgrounds {
   float: right;
   width: 24em;
@@ -171,7 +170,7 @@ img#video {
   left: 45em;
 }
 
-/* line 148, ../sass/home_screen.sass */
+/* line 146, ../sass/home_screen.sass */
 #video_promo img.promos {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -180,7 +179,7 @@ img#video {
   padding-left: 0.5em;
 }
 
-/* line 155, ../sass/home_screen.sass */
+/* line 153, ../sass/home_screen.sass */
 #backgrounds img#background {
   position: absolute;
   z-index: -1;

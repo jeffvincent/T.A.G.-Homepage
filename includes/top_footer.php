@@ -35,8 +35,8 @@
 <form name="formcheck" action="../contact_submit.php" method="POST" onsubmit="return formCheck(this);">
 <h3>T.A.G. Me</h3> 
 <h5>Subscribe to our mailing list</h5>
-<input type="text" onFocus="this.value=''" title="Name" name="name" value="Name" size="20"><br /><br />
-<input type="text" onFocus="this.value=''" title="Email Address" name="email_address" value="Email Address" size="20"><br /><br />
+<input type="text" onFocus="this.value=''" title="Name" name="name" value="Name" size="20">
+<input type="text" onFocus="this.value=''" title="Email Address" name="email_address" value="Email Address" size="20">
 <input class="submit" title="Subscribe to our mailing list" type="submit" value="Send">
 </form>
 </div>

@@ -23,7 +23,7 @@
 <!--Content Start-->
 <div id="content">
 
-<div id="discription">
+<div id="description">
 <h2>T.A.G. Team</h2>
 <p><em>Those Apple Guys (T.A.G)</em> is an experienced <em>Apple product repair and computer consulting</em> team. We gear towards streamlining your technology to optimize performance, avoid downtime, prevent failure, and most importantly increase productivity. Whatever you need - <em>computer upgrades/tuneups, backup solutions, network design/installation</em>, T.A.G's got you covered.</p>
 <p>Everyone's situation is different in regards to their technology integration into their life. We're here to make it easy for you to use, we speak a language you can understand, and we'll be there for you if something does go wrong. That's what we do.</p>
