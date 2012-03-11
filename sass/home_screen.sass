@@ -8,11 +8,17 @@
  *
  *-------------------------------------------------------------------
 
+$content-margin: 2em
+$font: Georgia, "Times New Roman", Times, serif
+$default-text-shadow-color: rgba(black, .6)
+$default-text-shadow-blur: 3px
+$default-text-shadow-v-offset: 1px
+$default-border-radius: 10px
+
 @import "compass/css3", "compass/utilities"
 @import "fancy-buttons"
 
-$content-margin: 2em
-$font: Georgia, "Times New Roman", Times, serif
+
 
 body#home
   background: url(../images/backgrounds/bg_home.png) repeat-x
@@ -32,34 +38,51 @@ body#home
     width: 28.5em
     img
       display: block
-      position: absolute
+      position: relative 
       width: 28.5em
       padding-top: .3em
-  #computernerds
-    float: right
-    text-align: center
-    img#computernerds
-      display: block
-      position: relative
-      width: 32em
-      top: 5em
-      left: 2em
-    img#who_we_are
-      position: relative
-      width: 12em
-      margin: 1em auto
-      z-index: 2
-      top: 10em
-      left: 25em
+  
+#computernerds
+  float: right
+  text-align: center
+  img#computernerds
+    display: block
+    position: relative
+    width: 32em
+    margin: 5em auto 2em
+  img#who_we_are
+    position: relative
+    width: 12em
+    margin: 1em auto
+    z-index: 2
+    top: 10em
+    left: 25em
+  p
+    margin: 5em auto 2em
+  span
+    +single-text-shadow
+    font-family: $font
+    font-weight: bold
+    color: #c8c5c5
+  &span:first-child
+    font-size: 45px
+  &span:last-child
+    font-size: 32px
+    margin-left: 40px 
 
 button.about_us
-  +fancy-button(#1c1c1c, 24px)
-  
+  +fancy-button(#1c1c1c, 24px, 15px)
+  width: 190px
+  height: 65px
+  font-size: 19px
+  display: block
+  margin: 0 auto
+  font-family: $font
 
 /*  ************* Content Layout  *************
 
 #description
-  +border-radius(10px)
+  +border-radius
   +box-shadow(#d3d2d3 2px 3px 8px)
   clear: left
   float: left
@@ -77,6 +100,8 @@ button.about_us
     font-family: $font
     word-spacing: .2em
     margin: 1em
+    font-size: 16px
+    line-height: 1.2em
 
 #container
   #content

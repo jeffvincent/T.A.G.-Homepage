@@ -14,9 +14,10 @@
 <div id="guys_shadow">
 <img title="Apple Guys" alt="Apple Guys" src="images/logo/apple_guys.png" /></div>
 <div id="computernerds">
-<img id="computernerds" title="We're Computer Nerds....So You Don't Have To Be." alt="We're Computer Nerds....So You Don't Have To Be." src="images/about/nerds_text.png" />
-<a href="http://fast.wistia.com/embed/iframe/1d79fc2120?videoWidth=640&videoHeight=360&controlsVisibleOnLoad=true&playerColor=5b1211&autoPlay=true&popover=true" class="wistia-popover[width=640,height=360,playerColor=#5b1211]"><img id="who_we_are" title="Who We Are Video" alt="Who We Are | Those Apple Guys" src="images/buttons/who_we_are.png" /></a><script charset="ISO-8859-1" src="http://fast.wistia.com/static/popover-v1.js"></script>
-<button class="about_us">WHO WE ARE</button>
+<!--<img id="computernerds" title="We're Computer Nerds....So You Don't Have To Be." alt="We're Computer Nerds....So You Don't Have To Be." src="images/about/nerds_text.png" />-->
+<p><span class="nerds">we're computer nerds</span><br /><span class="nerds">...so you don't have to be.</span></p>
+<a href="http://fast.wistia.com/embed/iframe/1d79fc2120?videoWidth=640&videoHeight=360&controlsVisibleOnLoad=true&playerColor=5b1211&autoPlay=true&popover=true" class="wistia-popover[width=640,height=360,playerColor=#5b1211]"><button class="about_us">WHO WE ARE</button></a>
+<script charset="ISO-8859-1" src="http://fast.wistia.com/static/popover-v1.js"></script>
 </div>
 <div id="clear" style="clear:both;"></div>
 </div>

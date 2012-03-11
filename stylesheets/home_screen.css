@@ -31,13 +31,13 @@
   outline: none;
 }
 
-/* line 17, ../sass/home_screen.sass */
+/* line 23, ../sass/home_screen.sass */
 body#home {
   background: url(../images/backgrounds/bg_home.png) repeat-x;
 }
 
 /*  ************* HOME: About_Us Layout  ************* */
-/* line 22, ../sass/home_screen.sass */
+/* line 28, ../sass/home_screen.sass */
 #about_us {
   clear: both;
   padding-bottom: 10%;
@@ -47,33 +47,33 @@ body#home {
   width: 100%;
   height: 10.95em;
 }
-/* line 30, ../sass/home_screen.sass */
+/* line 36, ../sass/home_screen.sass */
 #about_us #guys_shadow {
   float: left;
   width: 28.5em;
 }
-/* line 33, ../sass/home_screen.sass */
+/* line 39, ../sass/home_screen.sass */
 #about_us #guys_shadow img {
   display: block;
-  position: absolute;
+  position: relative;
   width: 28.5em;
   padding-top: 0.3em;
 }
-/* line 38, ../sass/home_screen.sass */
-#about_us #computernerds {
+
+/* line 45, ../sass/home_screen.sass */
+#computernerds {
   float: right;
   text-align: center;
 }
-/* line 41, ../sass/home_screen.sass */
-#about_us #computernerds img#computernerds {
+/* line 48, ../sass/home_screen.sass */
+#computernerds img#computernerds {
   display: block;
   position: relative;
   width: 32em;
-  top: 5em;
-  left: 2em;
+  margin: 5em auto 2em;
 }
-/* line 47, ../sass/home_screen.sass */
-#about_us #computernerds img#who_we_are {
+/* line 53, ../sass/home_screen.sass */
+#computernerds img#who_we_are {
   position: relative;
   width: 12em;
   margin: 1em auto;
@@ -81,15 +81,35 @@ body#home {
   top: 10em;
   left: 25em;
 }
+/* line 60, ../sass/home_screen.sass */
+#computernerds p {
+  margin: 5em auto 2em;
+}
+/* line 62, ../sass/home_screen.sass */
+#computernerds span {
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #c8c5c5;
+}
+/* line 67, ../sass/home_screen.sass */
+#computernerds span:first-child {
+  font-size: 45px;
+}
+/* line 69, ../sass/home_screen.sass */
+#computernerds span:last-child {
+  font-size: 32px;
+  margin-left: 40px;
+}
 
-/* line 55, ../sass/home_screen.sass */
+/* line 73, ../sass/home_screen.sass */
 button.about_us {
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -o-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -khtml-border-radius: 6px;
-  border-radius: 6px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
   font-size: 24px;
   line-height: 1.2em;
   padding: 0.3em 1em;
@@ -113,6 +133,12 @@ button.about_us {
   -ms-background-clip: padding-box;
   -khtml-background-clip: padding-box;
   background-clip: padding-box;
+  width: 190px;
+  height: 65px;
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us, button.about_us:visited {
@@ -156,7 +182,7 @@ button.about_us:active, button.about_us:active:visited {
 }
 
 /*  ************* Content Layout  ************* */
-/* line 61, ../sass/home_screen.sass */
+/* line 84, ../sass/home_screen.sass */
 #description {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -174,13 +200,13 @@ button.about_us:active, button.about_us:active:visited {
   padding: 1em;
   background: white no-repeat;
 }
-/* line 69, ../sass/home_screen.sass */
+/* line 92, ../sass/home_screen.sass */
 #description h2 {
   color: #525252;
   text-transform: uppercase;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 73, ../sass/home_screen.sass */
+/* line 96, ../sass/home_screen.sass */
 #description p {
   color: #282828;
   text-align: left;
@@ -188,9 +214,11 @@ button.about_us:active, button.about_us:active:visited {
   font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
   margin: 1em;
+  font-size: 16px;
+  line-height: 1.2em;
 }
 
-/* line 82, ../sass/home_screen.sass */
+/* line 107, ../sass/home_screen.sass */
 #container #content {
   float: left;
   width: 100%;
@@ -203,7 +231,7 @@ button.about_us:active, button.about_us:active:visited {
   padding-bottom: 2em;
 }
 
-/* line 93, ../sass/home_screen.sass */
+/* line 118, ../sass/home_screen.sass */
 #video_area {
   float: left;
   clear: none;
@@ -214,18 +242,18 @@ button.about_us:active, button.about_us:active:visited {
   margin: 3em auto auto;
 }
 
-/* line 102, ../sass/home_screen.sass */
+/* line 127, ../sass/home_screen.sass */
 #video_area object {
   padding: 1.5em;
 }
 
-/* line 105, ../sass/home_screen.sass */
+/* line 130, ../sass/home_screen.sass */
 img#video {
   width: 100%;
 }
 
 /*  ************* Campaign Layout  ************* */
-/* line 111, ../sass/home_screen.sass */
+/* line 136, ../sass/home_screen.sass */
 #container #campaign {
   float: left;
   width: 100%;
@@ -236,7 +264,7 @@ img#video {
   padding-top: 2em;
   margin-top: 2em;
 }
-/* line 122, ../sass/home_screen.sass */
+/* line 147, ../sass/home_screen.sass */
 #container div#campaign#tagus blockquote {
   color: #4a4a4a;
   font-style: italic;
@@ -248,14 +276,14 @@ img#video {
   width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 132, ../sass/home_screen.sass */
+/* line 157, ../sass/home_screen.sass */
 #container div#campaign #video_promo {
   clear: left;
   float: left;
   width: 50%;
   padding-right: 1em;
 }
-/* line 137, ../sass/home_screen.sass */
+/* line 162, ../sass/home_screen.sass */
 #container div#campaign #tagus {
   float: right;
   width: 40%;
@@ -265,7 +293,7 @@ img#video {
   top: 4em;
   right: 2em;
 }
-/* line 145, ../sass/home_screen.sass */
+/* line 170, ../sass/home_screen.sass */
 #container div#top_footer #backgrounds {
   float: right;
   width: 24em;
@@ -278,7 +306,7 @@ img#video {
   left: 45em;
 }
 
-/* line 156, ../sass/home_screen.sass */
+/* line 181, ../sass/home_screen.sass */
 #video_promo img.promos {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -287,7 +315,7 @@ img#video {
   padding-left: 0.5em;
 }
 
-/* line 163, ../sass/home_screen.sass */
+/* line 188, ../sass/home_screen.sass */
 #backgrounds img#background {
   position: absolute;
   z-index: -1;
