@@ -42,6 +42,7 @@ wistiaEmbed = Wistia.embed("bba96803ed", {
   playerColor: "5b1211"
 });
 //]]</script></div>
+<div id="clearfix" style="clear:both;"></div>
 
 <!--Campaign Footer Start-->
 <div id="campaign">
