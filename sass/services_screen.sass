@@ -8,9 +8,73 @@
  *
  *-------------------------------------------------------------------
 
+@import "partials/vars_and_mixins"
+
 #navbar #services a
   width: 120px
   background-position: -240px center
   &:hover
     width: 120px
     background-position: -240px center
+
+#services
+  +box-shadow
+  +border-radius  
+  display: block
+  position: relative
+  float: left
+  border: .1em solid $border-color
+  margin-top: $content-margin
+  margin-bottom: $content-margin
+  background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom
+
+#service_info
+  float: right
+  height: 100%
+  background: transparent none repeat-x center center
+  clear: none
+  position: relative
+  width: 71%
+  p
+    font-family: $font 
+    word-spacing: .2em
+    padding: 1em 2em
+    line-height: 150%
+  h4
+    text-align: center
+    text-transform: uppercase
+    font: 200% / 120% Georgia, "Times New Roman", Times, serif
+    width: 100%
+    padding-top: 1em
+    padding-bottom: .5em
+    letter-spacing: .06em
+
+#services
+  h1
+    display: block
+    border-bottom: .1em solid #d3d2d3
+    float: left
+    color: $footer-h-color 
+    font: 2em Georgia, "Times New Roman", Times, serif
+    padding: .5em 2em .5em .5em
+    width: 92%
+    background: url(../images/backgrounds/h1_bg.png) repeat-x center top
+  ol
+    float: left
+    display: block
+    position: relative
+    list-style-type: none
+    padding: 1em
+    width: 25%
+    height: 100%
+    border-right: .1em solid #d3d2d3
+    background: url(../images/backgrounds/ol_bg.png) repeat-y left top
+    clear: both
+    -moz-border-radius-bottomleft: 10px
+    -webkit-border-bottom-left-radius: 10px      
+  li
+    padding-top: 1em
+    padding-bottom: 1em
+    border-bottom: .1em solid #d3d2d3
+    color: #817b7b
+    font: bold 1em Georgia, "Times New Roman", Times, serif

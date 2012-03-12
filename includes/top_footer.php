@@ -17,29 +17,30 @@
 
 <div id="contact_info">
 <h3>T.A.G. Us</h3>
-<div id="a">
+<div class="contact_locations">
 <h5>North Whales</h5>
-<p id="maps" ><a title="<?php global $ambler; echo "$ambler"; ?>" target="_blank" href="<?php include('ambler.php'); ?>">508 S. Sumneytown Pike</a></p>
-<p><a title="<?php global $ambler; echo "$ambler"; ?>" target="_blank" href="<?php include('ambler.php'); ?>">North Wales, PA 19454</a></p>
-<p id="phone">(215) 645-4410</p>
+<p class="maps" ><a title="<?php global $ambler; echo "$ambler"; ?>" target="_blank" href="<?php include('ambler.php'); ?>">508 S. Sumneytown Pike<br />
+North Wales, PA 19454</a></p>
+<p class="phone">(215) 645-4410</p>
 </div>
-<div id="wc">
+<div class="contact_locations" id="wc">
 <h5>West Chester</h5>
-<p id="maps"><a title="<?php global $wc; echo "$wc"; ?>" target="_blank" href="<?php include('westchester.php'); ?>">101 Everest Circle</a></p>
-<p><a title="<?php global $wc; echo "$wc"; ?>" target="_blank" href="<?php include('westchester.php'); ?>">West Chester, PA 19382</a></p>
-<p id="phone">(610) 486-6165</p>
+<p class="maps"><a title="<?php global $wc; echo "$wc"; ?>" target="_blank" href="<?php include('westchester.php'); ?>">101 Everest Circle<br />
+West Chester, PA 19382</a></p>
+<p class="phone">(610) 486-6165</p>
 </div>
 </div>
-<div id="email_sub">
 
+<div id="email_sub">
 <form name="formcheck" action="../contact_submit.php" method="POST" onsubmit="return formCheck(this);">
 <h3>T.A.G. Me</h3> 
-<h5>Subscribe to our mailing list</h5>
+<h5>Subscribe to the T.A.G<br /> mailing list</h5>
 <input type="text" onFocus="this.value=''" title="Name" name="name" value="Name" size="20">
 <input type="text" onFocus="this.value=''" title="Email Address" name="email_address" value="Email Address" size="20">
 <input class="submit" title="Subscribe to our mailing list" type="submit" value="Send">
 </form>
 </div>
+<div id="clearfix" style="clear:both;"></div>
 </div>
 </div>
 

@@ -8,13 +8,7 @@
  *
  *-------------------------------------------------------------------
 
-$content-margin: 2em
-$font: Georgia, "Times New Roman", Times, serif
-$default-text-shadow-color: rgba(black, .6)
-$default-text-shadow-blur: 3px
-$default-text-shadow-v-offset: 1px
-$default-border-radius: 10px
-
+@import "partials/vars_and_mixins"
 @import "compass/css3", "compass/utilities"
 @import "fancy-buttons"
 
@@ -139,6 +133,7 @@ img#video
   padding-top: 2em
   margin-top: 2em
   position: relative
+  border-top: $default-border 
   
 #tagus 
   float: right
@@ -156,7 +151,7 @@ img#video
     padding-bottom: 0
     padding-left: 1em
     width: 100%
-    font-family: Georgia, "Times New Roman", Times, serif
+    font-family: $font 
 
 #video_promo
   clear: left

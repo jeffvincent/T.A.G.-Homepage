@@ -8,14 +8,17 @@
  *
  *-------------------------------------------------------------------
 
-$content-margin: 2em
-$font: Georgia, "Times New Roman", Times, serif
-
-@import "compass/css3", "compass/utilities"
-@import "compass/reset"
+@import "partials/vars_and_mixins"
 @import "partials/footer"
 
 
+body
+  height: 100%
+  background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x 
+  font-family: $font
+
+a
+  text-decoration: none
 
 #service_info img.services_pics
   position: relative
@@ -24,11 +27,6 @@ $font: Georgia, "Times New Roman", Times, serif
   padding: 1em 0 1em 1em
   border-left: .1em solid gray
   margin-left: 1em
-
-body
-  height: 100%
-  background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x 
-  font-family: $font
 
 #container
   width: 1000px
@@ -169,8 +167,8 @@ img.bio_video
     margin-bottom: .5em
 
 .contact_bubbles
-  +border-radius(10px)
-  +box-shadow(#d3d2d3 2px 3px 8px)
+  +border-radius
+  +box-shadow
   width: 46%
   font-family: $font
   position: relative
@@ -205,8 +203,8 @@ img#ichat
   margin-bottom: $content-margin
 
 .bio
-  +border-radius(10px)
-  +box-shadow(#d3d2d3 2px 3px 8px)
+  +border-radius
+  +box-shadow
   text-align: center
   display: block
   padding: 1em

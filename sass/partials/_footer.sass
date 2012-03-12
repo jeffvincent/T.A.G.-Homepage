@@ -1,239 +1,117 @@
 /*  ************* Top Footer Layout  *************
-div
-  &#sitemap h3, &#contact_info h3
-    color: #515151
-    font: 2em Georgia, "Times New Roman", Times, serif
-  &#email_sub h3
-    color: #515151
-    font: 2em Georgia, "Times New Roman", Times, serif
-    padding-bottom: .5em
 
-#container #top_footer
+#top_footer
+  +border-radius
+  +box-shadow
   width: 97%
   height: 100%
   text-align: center
-  border-top-style: none
   border: .1em solid #d3d2d3
   background: white url(../images/backgrounds/top_footer.png) repeat-x left bottom
-  -moz-border-radius: 10px
-  -webkit-border-radius: 10px
-  -moz-box-shadow: 2px 3px 8px #d3d2d3
-  -webkit-box-shadow: 2px 3px 8px #d3d2d3
   float: left
   display: block
   margin-bottom: 1em
-  padding: 1em
-
-div
-  &#services
-    display: block
-    position: relative
-    float: left
-    -moz-border-radius-bottomleft: 10px
-    -moz-border-radius-bottomright: 10px
-    -webkit-border-bottom-left-radius: 10px
-    -webkit-border-bottom-right-radius: 10px
-    -moz-box-shadow: 2px 3px 8px #d3d2d3
-    -webkit-box-shadow: 2px 3px 8px #d3d2d3
-    border: .1em solid #d3d2d3
-    margin-top: $content-margin
-    margin-bottom: $content-margin
-    background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom
-  &#service_info
-    float: right
-    height: 100%
-    background: transparent none repeat-x center center
-    clear: none
-    position: relative
-    width: 71%
-
-#service_info
-  p
-    font-family: Georgia, "Times New Roman", Times, serif
-    word-spacing: .2em
-    padding: 1em 2em
-    line-height: 150%
-    background-color: transparent
-  h4
+  padding: 1em 2em
+  font-family: $font
+  h3, h5
+    color: $footer-h-color
+  h3
+    font-size: 2em
+  h5
+    line-height: 1.2em
     text-align: center
-    text-transform: uppercase
-    font: 200% / 120% Georgia, "Times New Roman", Times, serif
-    width: 100%
-    padding-top: 1em
-    padding-bottom: .5em
-    letter-spacing: .06em
-
-#services
-  h1
-    display: block
-    border-bottom: .1em solid #d3d2d3
-    float: left
-    color: #515151
-    font: 2em Georgia, "Times New Roman", Times, serif
-    padding: .5em 2em .5em .5em
-    width: 92%
-    background: url(../images/backgrounds/h1_bg.png) repeat-x center top
-  ol
-    float: left
-    display: block
     position: relative
-    list-style-type: none
-    padding: 1em
-    width: 25%
-    height: 100%
-    border-right: .1em solid #d3d2d3
-    background: url(../images/backgrounds/ol_bg.png) repeat-y left top
-    clear: both
-    -moz-border-radius-bottomleft: 10px
-    -webkit-border-bottom-left-radius: 10px      
-  li
-    padding-top: 1em
-    padding-bottom: 1em
-    border-bottom: .1em solid #d3d2d3
-    color: #817b7b
-    font: bold 1em Georgia, "Times New Roman", Times, serif
+    font-weight: bold
+    color: $footer-h-color
+    font-size: 15px
+  a
+    color: #525252
 
-
-
-#serivces li
-  padding-top: 1em
-  padding-bottom: 1em
-
-#container div#top_footer #sitemap
+#sitemap
   clear: left
   float: left
-  width: 8em
-  padding: 1em
-  line-height: 2em
+  width: 15.5% 
+  padding: 1em 1em 0
+  line-height: 2.3em
   height: 100%
   position: relative
-  margin-left: 10px
+  ol
+    margin: 0.2em 0 0 1em
   ol li
     list-style-position: inside
     list-style-type: none
     text-align: left
-    border-bottom: 1px solid #c8c8c8
-    width: 8em
-    font-family: Georgia, "Times New Roman", Times, serif
+    border-bottom: $default-border 
+    width: 6em
     list-style-image: url(../images/buttons/block_bullet.png)
-    opacity: 1
-    line-height: 2.3em
     &:last-child
-      border-bottom: 0
+      border-bottom: none
 
-a
-  text-decoration: none
-  font-family: Georgia, "Times New Roman", Times, serif
-  color: #525252
 
-#container div#top_footer #contact_info
+
+#contact_info
   float: left
-  width: 520px
+  width: 54% 
   padding: 1em 0
-  margin-left: 40px
+  margin-left: 25px
   position: relative
   height: 100%
-
-div
-  &#a
-    clear: left
-    display: block
-    float: left
-    padding-right: 0
-    padding-left: 1em
-    border-right: .1em solid #d3d2d3
-    margin-top: 1em
-    width: 240px
-    height: 100%
-  &#wc
-    width: 225px
-    clear: right
-    float: left
+  a
+    text-decoration: none
+    color: #525252
+  p
     position: relative
-    text-align: right
-    padding-left: 15px
-    padding-right: 1em
-    margin-top: 1em
-    height: 100%
-  &#contact_info p
     width: 95%
     height: 100%
     color: #525252
-    font-family: Georgia, "Times New Roman", Times, serif
+    font-family: $font 
     line-height: 2em
-    background-position: 0 50%
     text-align: right
-    margin-right: 0
     margin-top: .5em
-    padding-top: 0
-    padding-bottom: 0
-    padding-right: 0
-
-#contact_info a
-  text-decoration: none
-  color: #525252
-
-p#maps
-  background: url(../images/buttons/maps.png) no-repeat
-
-#contact_locations
-  a p, p a
-    font-family: Georgia, "Times New Roman", Times, serif
-    color: black
-    margin: 0
-    width: 45%
-    float: right
-    clear: right
-    position: relative
-    padding: 0 0 .5em
-    text-align: center
-  h4
-    color: black
-    text-align: left
     padding: 0
-    width: 45%
-    float: right
-    margin: 0 0 .7em
-    font-family: Georgia, "Times New Roman", Times, serif
-    font-weight: bold
+  p.maps
+    background: url(../images/buttons/maps.png) no-repeat
+    line-height: 1.8em
+  p.phone
+    background: url(../images/buttons/phone.png) no-repeat 0 50%
+    margin-top: .2em
 
-h5
-  font-family: Georgia, "Times New Roman", Times, serif
-  line-height: 1.6em
-  text-align: center
-  position: relative
-
-#sitemap ol
+.contact_locations
+  width: 227px
   margin-top: 1em
+  height: 100%
+  padding: 0 1em
+  position: relative
+  display: inline-block
+  vertical-align: top
 
-#phone
-  background: url(../images/buttons/phone.png) no-repeat 0 50%
-  margin-top: .5em
+#wc
+  border-left: .1em solid $border-color
+  width: 220px
 
-#container div#top_footer #email_sub
-  width: 10.3em
+#email_sub
+  width: 20% 
   clear: none
   display: block
   position: relative
-  float: left
+  float: right 
   padding: 1em
-
-#email_sub form input
-  width: 100%
-  height: 1.5em
-  background-color: white
-  margin-top: 10px
-  font-family: Georgia, "Times New Roman", Times, serif
-  color: gray
-
-#email_sub form
-  input.submit
+  h3
+    padding-bottom: .5em
+  form input.submit
     color: gray
     width: 40%
     position: absolute 
     font-size: 15px
     margin-top: 10px
-    right: 0.8em
+    right: 0.8em 
+  form input
+    width: 100%
+    height: 1.5em
+    background-color: white
+    margin-top: 10px
+    font-family: $font 
+    color: gray
 
 /*  ************* Footer Layout  *************
 

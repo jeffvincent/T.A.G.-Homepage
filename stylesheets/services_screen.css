@@ -7,13 +7,161 @@
  *Primary use:	Those Apple Guys 
  *
  *------------------------------------------------------------------- */
-/* line 11, ../sass/services_screen.sass */
+/* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/services_screen.sass */
 #navbar #services a {
   width: 120px;
   background-position: -240px center;
 }
-/* line 14, ../sass/services_screen.sass */
+/* line 16, ../sass/services_screen.sass */
 #navbar #services a:hover {
   width: 120px;
   background-position: -240px center;
+}
+
+/* line 20, ../sass/services_screen.sass */
+#services {
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  float: left;
+  border: 0.1em solid #d3d2d3;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom;
+}
+
+/* line 31, ../sass/services_screen.sass */
+#service_info {
+  float: right;
+  height: 100%;
+  background: transparent none repeat-x center center;
+  clear: none;
+  position: relative;
+  width: 71%;
+}
+/* line 38, ../sass/services_screen.sass */
+#service_info p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 0.2em;
+  padding: 1em 2em;
+  line-height: 150%;
+}
+/* line 43, ../sass/services_screen.sass */
+#service_info h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 200%/120% Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  letter-spacing: 0.06em;
+}
+
+/* line 53, ../sass/services_screen.sass */
+#services h1 {
+  display: block;
+  border-bottom: 0.1em solid #d3d2d3;
+  float: left;
+  color: #515151;
+  font: 2em Georgia, "Times New Roman", Times, serif;
+  padding: 0.5em 2em 0.5em 0.5em;
+  width: 92%;
+  background: url(../images/backgrounds/h1_bg.png) repeat-x center top;
+}
+/* line 62, ../sass/services_screen.sass */
+#services ol {
+  float: left;
+  display: block;
+  position: relative;
+  list-style-type: none;
+  padding: 1em;
+  width: 25%;
+  height: 100%;
+  border-right: 0.1em solid #d3d2d3;
+  background: url(../images/backgrounds/ol_bg.png) repeat-y left top;
+  clear: both;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+}
+/* line 75, ../sass/services_screen.sass */
+#services li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.1em solid #d3d2d3;
+  color: #817b7b;
+  font: bold 1em Georgia, "Times New Roman", Times, serif;
 }

@@ -56,6 +56,7 @@ wistiaEmbed = Wistia.embed("bba96803ed", {
 <p>Creative Communications - Claymont, DE</p>
 </blockquote>
 </div>
+<div id="clearfix" style="clear:both;"></div>
 </div>
 </div>
 
