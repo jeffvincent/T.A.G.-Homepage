@@ -72,6 +72,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* incase an inverted custom gradient isn't specified */
+/* line 177, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class, .video_bio_button {
+  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+  background: url('/images/button_bg.png?1331402483') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+}
+/* line 165, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class::-moz-focus-inner, .video_bio_button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 168, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class:focus, .video_bio_button:focus {
+  outline: none;
+}
+
 /*  ************* Top Footer Layout  ************* */
 /* line 3, ../sass/partials/_footer.sass */
 #top_footer {
@@ -81,11 +105,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -o-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  width: 97%;
+  -moz-box-shadow: 0px 0px 8px #333333;
+  -webkit-box-shadow: 0px 0px 8px #333333;
+  -o-box-shadow: 0px 0px 8px #333333;
+  box-shadow: 0px 0px 8px #333333;
+  width: 934px;
   height: 100%;
   text-align: center;
   border: 0.1em solid #d3d2d3;
@@ -167,25 +191,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   color: #525252;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9em;
   line-height: 2em;
   text-align: right;
   margin-top: 0.5em;
   padding: 0;
 }
-/* line 72, ../sass/partials/_footer.sass */
+/* line 73, ../sass/partials/_footer.sass */
 #contact_info p.maps {
   background: url(../images/buttons/maps.png) no-repeat;
   line-height: 1.8em;
 }
-/* line 75, ../sass/partials/_footer.sass */
+/* line 76, ../sass/partials/_footer.sass */
 #contact_info p.phone {
   background: url(../images/buttons/phone.png) no-repeat 0 50%;
   margin-top: 0.2em;
 }
 
-/* line 79, ../sass/partials/_footer.sass */
+/* line 80, ../sass/partials/_footer.sass */
 .contact_locations {
-  width: 227px;
+  width: 200px;
   margin-top: 1em;
   height: 100%;
   padding: 0 1em;
@@ -194,13 +219,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   vertical-align: top;
 }
 
-/* line 88, ../sass/partials/_footer.sass */
+/* line 89, ../sass/partials/_footer.sass */
 #wc {
   border-left: 0.1em solid #d3d2d3;
   width: 220px;
 }
 
-/* line 92, ../sass/partials/_footer.sass */
+/* line 93, ../sass/partials/_footer.sass */
 #email_sub {
   width: 20%;
   clear: none;
@@ -209,11 +234,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   float: right;
   padding: 1em;
 }
-/* line 99, ../sass/partials/_footer.sass */
+/* line 100, ../sass/partials/_footer.sass */
 #email_sub h3 {
   padding-bottom: 0.5em;
 }
-/* line 101, ../sass/partials/_footer.sass */
+/* line 102, ../sass/partials/_footer.sass */
 #email_sub form input.submit {
   color: gray;
   width: 40%;
@@ -222,7 +247,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-top: 10px;
   right: 0.8em;
 }
-/* line 108, ../sass/partials/_footer.sass */
+/* line 109, ../sass/partials/_footer.sass */
 #email_sub form input {
   width: 100%;
   height: 1.5em;
@@ -233,7 +258,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /*  ************* Footer Layout  ************* */
-/* line 118, ../sass/partials/_footer.sass */
+/* line 119, ../sass/partials/_footer.sass */
 #footer {
   clear: both;
   width: 100%;
@@ -248,35 +273,169 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-bottom: auto;
 }
 
-/* line 131, ../sass/partials/_footer.sass */
+/* line 132, ../sass/partials/_footer.sass */
 p#top {
   background: url(../images/backgrounds/footer_line.png) no-repeat center bottom;
 }
 
-/* line 135, ../sass/partials/_footer.sass */
+/* line 136, ../sass/partials/_footer.sass */
 #footer > p {
   padding: 2em;
   position: relative;
   color: #f8f4ea;
 }
-/* line 139, ../sass/partials/_footer.sass */
+/* line 140, ../sass/partials/_footer.sass */
 #footer p a {
   color: white;
 }
 
-/* line 15, ../sass/screen.sass */
+/*  ************* NavBar Layout  ************* */
+/* line 4, ../sass/partials/_navbar.sass */
+#navbar_wrapper {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+  background-color: #f8f4ea;
+}
+
+/* line 9, ../sass/partials/_navbar.sass */
+#navbar {
+  z-index: 0;
+  margin-right: auto;
+  margin-left: auto;
+  height: 48px;
+  clear: both;
+  position: relative;
+  text-align: left;
+}
+/* line 17, ../sass/partials/_navbar.sass */
+#navbar h2, #navbar ul, #navbar a {
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* line 20, ../sass/partials/_navbar.sass */
+#navbar h2, #navbar a {
+  color: #987c5c;
+}
+/* line 22, ../sass/partials/_navbar.sass */
+#navbar h2 {
+  font-size: 120%;
+  position: absolute;
+  right: 2.5em;
+  top: 0.7em;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
+}
+/* line 28, ../sass/partials/_navbar.sass */
+#navbar ul {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+/* line 36, ../sass/partials/_navbar.sass */
+#navbar li {
+  list-style: none;
+  padding: 0.8em 1em;
+  max-width: 120px;
+  height: 24.4px;
+  display: inline-block;
+  border-left: 1px solid #987c5c;
+}
+/* line 43, ../sass/partials/_navbar.sass */
+#navbar li a {
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
+  display: block;
+  font-size: 1.1em;
+}
+/* line 47, ../sass/partials/_navbar.sass */
+#navbar li:nth-child(4) {
+  border-right: 1px solid #987c5c;
+}
+/* line 49, ../sass/partials/_navbar.sass */
+#navbar li:hover {
+  background-color: #fdfcf3;
+}
+/* line 51, ../sass/partials/_navbar.sass */
+#navbar li:hover a {
+  color: #4e4e4c;
+}
+/* line 53, ../sass/partials/_navbar.sass */
+#navbar li.active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5c1112), color-stop(100%, #f8f4ea));
+  background-image: -webkit-linear-gradient(top, #5c1112, #f8f4ea);
+  background-image: -moz-linear-gradient(top, #5c1112, #f8f4ea);
+  background-image: -o-linear-gradient(top, #5c1112, #f8f4ea);
+  background-image: -ms-linear-gradient(top, #5c1112, #f8f4ea);
+  background-image: linear-gradient(top, #5c1112, #f8f4ea);
+}
+/* line 55, ../sass/partials/_navbar.sass */
+#navbar li.active a {
+  color: white;
+}
+/* line 57, ../sass/partials/_navbar.sass */
+#navbar li.active:hover a {
+  color: white;
+}
+
+/*  ************* Header Layout  ************* */
+/* line 3, ../sass/partials/_header.sass */
+#header {
+  clear: both;
+  font-size: 1px;
+  color: #fefdfb;
+  height: 129px;
+}
+/* line 8, ../sass/partials/_header.sass */
+#header a {
+  text-decoration: none;
+}
+/* line 10, ../sass/partials/_header.sass */
+#header img#header_logo {
+  height: 90%;
+  position: relative;
+  margin-top: 1%;
+}
+/* line 14, ../sass/partials/_header.sass */
+#header img#whitehead {
+  float: right;
+  clear: left;
+  position: relative;
+  height: 129px;
+}
+/* line 19, ../sass/partials/_header.sass */
+#header h1 {
+  width: 1px;
+  height: 1px;
+  color: fuchsia;
+  top: -9999px;
+  position: absolute;
+}
+
+/* line 26, ../sass/partials/_header.sass */
+img#quote {
+  float: right;
+  clear: left;
+  position: relative;
+  right: -20px;
+  bottom: -53px;
+}
+
+/* line 17, ../sass/screen.sass */
 body {
   height: 100%;
   background: #f8f4ea url(../images/backgrounds/bg.png) repeat-x;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 20, ../sass/screen.sass */
+/* line 22, ../sass/screen.sass */
 a {
   text-decoration: none;
 }
 
-/* line 23, ../sass/screen.sass */
+/* line 25, ../sass/screen.sass */
 #service_info img.services_pics {
   position: relative;
   float: right;
@@ -286,7 +445,7 @@ a {
   margin-left: 1em;
 }
 
-/* line 31, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 #container {
   width: 1000px;
   padding: 0;
@@ -296,13 +455,13 @@ a {
   margin: 0 auto;
 }
 
-/* line 39, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 html > body #container {
   height: auto;
   float: none;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 img#guys {
   position: absolute;
   margin-top: 24%;
@@ -310,158 +469,14 @@ img#guys {
   z-index: 1;
 }
 
-/*  ************* Header Layout  ************* */
-/* line 51, ../sass/screen.sass */
-#container #header {
-  clear: both;
-  font-size: 1px;
-  color: #fefdfb;
-  height: 131px;
-}
-/* line 56, ../sass/screen.sass */
-#container #header a {
-  text-decoration: none;
-}
-/* line 58, ../sass/screen.sass */
-#container #header img#header_logo {
-  height: 90%;
-  position: relative;
-  margin-top: 1%;
-}
-/* line 62, ../sass/screen.sass */
-#container #header img#whitehead {
-  float: right;
-  clear: left;
-  position: relative;
-  height: 129px;
-}
-/* line 67, ../sass/screen.sass */
-#container #header h1 {
-  width: 1px;
-  height: 1px;
-  color: fuchsia;
-  top: -9999px;
-  position: absolute;
-}
-
-/* line 74, ../sass/screen.sass */
-img#quote {
-  float: right;
-  clear: left;
-  position: relative;
-  right: -20px;
-  bottom: -53px;
-}
-
-/*  ************* NavBar Layout  ************* */
-/* line 84, ../sass/screen.sass */
-#container #navbar {
-  background: #f8f4ea url(../images/buttons/menu_bg.png) repeat-x;
-  z-index: 0;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 45px;
-  clear: both;
-  position: relative;
-}
-/* line 93, ../sass/screen.sass */
-#container #navbar h2 {
-  position: absolute;
-  color: #987c5c;
-  right: -24em;
-  padding: 0;
-  font: normal 120% Georgia, "Times New Roman", Times, serif;
-  margin-top: -1.8em;
-}
-/* line 100, ../sass/screen.sass */
-#container #navbar ul {
-  list-style: none;
-  display: inline-block;
-  text-indent: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: transparent;
-  padding: 0;
-}
-/* line 110, ../sass/screen.sass */
-#container #navbar li {
-  list-style: none;
-  display: inline;
-  padding-top: 0;
-  height: 45px;
-  float: left;
-}
-/* line 116, ../sass/screen.sass */
-#container #navbar a {
-  display: block;
-  padding: 0;
-  margin: 0;
-  float: left;
-  height: 2.8em;
-  width: 7.5em;
-  text-align: left;
-  clear: left;
-  background-image: url("../images/buttons/nav.png");
-  text-indent: -9999px;
-  height: 45px;
-}
-/* line 128, ../sass/screen.sass */
-#container #navbar #home a {
-  width: 120px;
-  background-position: left top;
-}
-/* line 131, ../sass/screen.sass */
-#container #navbar #home a:hover {
-  background-position: left bottom;
-}
-/* line 133, ../sass/screen.sass */
-#container #navbar #about a {
-  width: 120px;
-  background-position: -120px top;
-}
-/* line 136, ../sass/screen.sass */
-#container #navbar #about a:hover {
-  background-position: -120px bottom;
-}
-/* line 138, ../sass/screen.sass */
-#container #navbar #services a {
-  width: 120px;
-  background-position: -240px top;
-}
-/* line 141, ../sass/screen.sass */
-#container #navbar #services a:hover {
-  background-position: -240px bottom;
-}
-/* line 143, ../sass/screen.sass */
-#container #navbar #contact a {
-  width: 120px;
-  background-position: -360px top;
-}
-/* line 146, ../sass/screen.sass */
-#container #navbar #contact a:hover {
-  background-position: -360px bottom;
-}
-
-/* line 149, ../sass/screen.sass */
-img.bio_video {
-  position: absolute;
-  width: 8em;
-  margin-bottom: 1em;
-  bottom: 0;
-  right: 75px;
-}
-
 /*  ************* Content Layout  ************* */
-/* line 158, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 #contact_locations {
   text-align: center;
   background: transparent no-repeat;
   margin: 3em auto 2em auto;
 }
-/* line 162, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 #contact_locations h2 {
   width: 100%;
   text-align: center;
@@ -470,7 +485,7 @@ img.bio_video {
   margin-bottom: 0.5em;
 }
 
-/* line 169, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 .contact_bubbles {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -478,10 +493,10 @@ img.bio_video {
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -o-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 8px #333333;
+  -webkit-box-shadow: 0px 0px 8px #333333;
+  -o-box-shadow: 0px 0px 8px #333333;
+  box-shadow: 0px 0px 8px #333333;
   width: 46%;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
@@ -489,17 +504,17 @@ img.bio_video {
   background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center;
 }
 
-/* line 177, ../sass/screen.sass */
+/* line 72, ../sass/screen.sass */
 #ambler {
   float: left;
 }
 
-/* line 179, ../sass/screen.sass */
+/* line 74, ../sass/screen.sass */
 #westchester {
   float: right;
 }
 
-/* line 182, ../sass/screen.sass */
+/* line 77, ../sass/screen.sass */
 #contact_locations img {
   float: left;
   position: relative;
@@ -507,7 +522,7 @@ img.bio_video {
   border-style: none;
 }
 
-/* line 188, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 img#ichat {
   float: left;
   width: 28%;
@@ -519,15 +534,15 @@ img#ichat {
 }
 
 /*  ************* Bio Layout  ************* */
-/* line 199, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 #bio_group {
   width: 100%;
   height: 100%;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
-/* line 205, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .bio {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -535,10 +550,10 @@ img#ichat {
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -o-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 8px #333333;
+  -webkit-box-shadow: 0px 0px 8px #333333;
+  -o-box-shadow: 0px 0px 8px #333333;
+  box-shadow: 0px 0px 8px #333333;
   text-align: center;
   display: block;
   padding: 1em;
@@ -547,35 +562,35 @@ img#ichat {
   width: 46%;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 109, ../sass/screen.sass */
 #chip {
   clear: left;
   float: left;
   background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em;
 }
 
-/* line 218, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 #jay {
   clear: right;
   float: right;
   background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em;
 }
 
-/* line 223, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 .info {
   text-align: center;
   float: right;
   width: 46%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 228, ../sass/screen.sass */
+/* line 123, ../sass/screen.sass */
 .info h2 {
   color: #525252;
   z-index: 1;
   text-transform: capitalize;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 233, ../sass/screen.sass */
+/* line 128, ../sass/screen.sass */
 .info p {
   color: #282828;
   text-align: center;
@@ -587,13 +602,13 @@ img#ichat {
   padding-right: 1em;
 }
 
-/* line 243, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 blockquote.info {
   margin: 2em auto;
   font-style: italic;
   width: 100%;
 }
-/* line 247, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 blockquote.info:before {
   float: left;
   font-family: Georgia;
@@ -607,7 +622,7 @@ blockquote.info:before {
   position: relative;
   width: 50%;
 }
-/* line 259, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 blockquote.info:after {
   float: right;
   font-family: Georgia;
@@ -618,18 +633,99 @@ blockquote.info:after {
   padding-right: 0.2em;
   height: 0.4em;
 }
-/* line 270, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 blockquote.info img#chip_pic, blockquote.info img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 274, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
+.video_bio_button {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #1c1c1c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(10%, #424242), color-stop(50%, #141414), color-stop(50%, #0d0d0d), color-stop(100%, #262626));
+  background-image: -webkit-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
+  background-image: -moz-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
+  background-image: -o-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
+  background-image: -ms-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
+  background-image: linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
+  border-color: black;
+  text-shadow: black 0px 1px 1px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 120px;
+  height: 45px;
+  font-size: 15px;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  bottom: 1.2em;
+  right: 5em;
+}
+/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.video_bio_button, .video_bio_button:visited {
+  color: white;
+}
+/* line 31, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.video_bio_button:hover, .video_bio_button:focus {
+  background-color: #141414;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #696969), color-stop(10%, #3b3b3b), color-stop(50%, #0d0d0d), color-stop(50%, #050505), color-stop(100%, #1f1f1f));
+  background-image: -webkit-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
+  background-image: -moz-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
+  background-image: -o-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
+  background-image: -ms-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
+  background-image: linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
+  border-color: black;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.video_bio_button:hover, .video_bio_button:hover:visited, .video_bio_button:focus, .video_bio_button:focus:visited {
+  color: white;
+}
+/* line 36, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.video_bio_button:active {
+  background-color: #0d0d0d;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0f0f0f), color-stop(30%, #141414), color-stop(50%, #0a0a0a), color-stop(50%, #030303), color-stop(100%, #242424));
+  background-image: -webkit-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
+  background-image: -moz-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
+  background-image: -o-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
+  background-image: -ms-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
+  background-image: linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
+  border-color: black;
+  text-shadow: black 0px -1px -1px;
+  -moz-box-shadow: black 0 0.08em 0.2em 1px inset;
+  -webkit-box-shadow: black 0 0.08em 0.2em 1px inset;
+  -o-box-shadow: black 0 0.08em 0.2em 1px inset;
+  box-shadow: black 0 0.08em 0.2em 1px inset;
+}
+/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.video_bio_button:active, .video_bio_button:active:visited {
+  color: white;
+}
+
+/* line 180, ../sass/screen.sass */
 .bio_pic {
   float: left;
 }
 
-/* line 277, ../sass/screen.sass */
+/* line 183, ../sass/screen.sass */
 img#apple_logo {
   width: 8%;
   float: left;
@@ -638,13 +734,13 @@ img#apple_logo {
   left: 26.5em;
 }
 
-/* line 285, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 img#chip_pic, img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 289, ../sass/screen.sass */
+/* line 195, ../sass/screen.sass */
 #bio h2 {
   color: #525252;
   z-index: 1;
@@ -652,7 +748,7 @@ img#chip_pic, img#jay_pic {
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 295, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 #contact_locations h3 {
   color: #515151;
   text-transform: capitalize;
@@ -660,7 +756,7 @@ img#chip_pic, img#jay_pic {
   margin-bottom: 0.5em;
 }
 
-/* line 301, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 #tagus blockquote p {
   clear: none;
   position: relative;
@@ -668,7 +764,7 @@ img#chip_pic, img#jay_pic {
   color: gray;
 }
 
-/* line 307, ../sass/screen.sass */
+/* line 213, ../sass/screen.sass */
 #container div#top_footer #backgrounds {
   float: left;
   clear: right;
@@ -676,7 +772,7 @@ img#chip_pic, img#jay_pic {
   width: 9.9em;
 }
 
-/* line 313, ../sass/screen.sass */
+/* line 219, ../sass/screen.sass */
 #backgrounds img#background {
   width: 20em;
   position: relative;

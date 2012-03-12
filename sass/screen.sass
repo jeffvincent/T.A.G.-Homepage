@@ -10,6 +10,8 @@
 
 @import "partials/vars_and_mixins"
 @import "partials/footer"
+@import "partials/navbar"
+@import "partials/header"
 
 
 body
@@ -45,113 +47,6 @@ img#guys
   margin-top: 24%
   width: 50%
   z-index: 1
-
-/*  ************* Header Layout  *************
-
-#container #header
-  clear: both
-  font-size: 1px
-  color: #fefdfb
-  height: 131px
-  a
-    text-decoration: none
-  img#header_logo
-    height: 90%
-    position: relative
-    margin-top: 1%
-  img#whitehead
-    float: right
-    clear: left
-    position: relative
-    height: 129px
-  h1
-    width: 1px
-    height: 1px
-    color: fuchsia
-    top: -9999px
-    position: absolute
-
-img#quote
-  float: right
-  clear: left
-  position: relative
-  right: -20px
-  bottom: -53px
-
-
-/*  ************* NavBar Layout  *************
-
-#container #navbar
-  background: #f8f4ea url(../images/buttons/menu_bg.png) repeat-x
-  z-index: 0
-  display: inline-block
-  margin-right: auto
-  margin-left: auto
-  height: 45px
-  clear: both
-  position: relative
-  h2
-    position: absolute
-    color: #987c5c
-    right: -24em
-    padding: 0
-    font: normal 120% Georgia, "Times New Roman", Times, serif
-    margin-top: -1.8em
-  ul
-    list-style: none
-    display: inline-block
-    text-indent: 0
-    padding-top: 0px
-    padding-bottom: 0px
-    margin-left: auto
-    margin-right: auto
-    background-color: transparent
-    padding: 0
-  li
-    list-style: none
-    display: inline
-    padding-top: 0
-    height: 45px
-    float: left
-  a
-    display: block
-    padding: 0
-    margin: 0
-    float: left
-    height: 2.8em
-    width: 7.5em
-    text-align: left
-    clear: left
-    background-image: url('../images/buttons/nav.png')
-    text-indent: -9999px
-    height: 45px
-  #home a
-    width: 120px
-    background-position: left top
-    &:hover
-      background-position: left bottom
-  #about a
-    width: 120px
-    background-position: -120px top
-    &:hover
-      background-position: -120px bottom
-  #services a
-    width: 120px
-    background-position: -240px top
-    &:hover
-      background-position: -240px bottom
-  #contact a
-    width: 120px
-    background-position: -360px top
-    &:hover
-      background-position: -360px bottom
-
-img.bio_video
-  position: absolute 
-  width: 8em
-  margin-bottom: 1em
-  bottom: 0
-  right: 75px
 
 /*  ************* Content Layout  *************
 
@@ -270,6 +165,17 @@ blockquote.info
     &#chip_pic, &#jay_pic
       width: 225px
       position: relative
+
+.video_bio_button
+  +fancy-button(#1c1c1c, 20px, 15px)
+  width: 120px
+  height: 45px
+  font-size: 15px
+  display: block
+  font-family: $font
+  position: absolute
+  bottom: 1.2em
+  right: 5em
 
 .bio_pic
   float: left

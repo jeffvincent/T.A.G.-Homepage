@@ -1,0 +1,61 @@
+/*  ************* NavBar Layout  *************
+
+
+#navbar_wrapper
+  width: 100%
+  position: absolute
+  top: 130px
+  background-color: #f8f4ea
+#navbar
+  z-index: 0
+  margin-right: auto
+  margin-left: auto
+  height: 48px
+  clear: both
+  position: relative
+  text-align: left
+  h2, ul, a
+    padding: 0
+    font-family: $font
+  h2, a
+    color: $navbar-text-color
+  h2
+    font-size: 120%
+    position: absolute
+    right: 2.5em
+    top: .7em
+    +text-shadow(rgba(0,0,0,0.6) 0px 0px 1px)
+  ul
+    list-style: none
+    display: inline-block
+    width: 100%
+    height: 100%
+    margin-left: auto
+    margin-right: auto
+    background-color: transparent
+  li
+    list-style: none
+    padding: .8em 1em
+    max-width: 120px
+    height: 24.4px
+    display: inline-block
+    border-left: 1px solid $navbar-text-color
+    a
+      +text-shadow(rgba(0,0,0,0.6) 0px 0px 1px)
+      display: block
+      font-size: 1.1em
+  li:nth-child(4)
+    border-right: 1px solid $navbar-text-color
+  &li:hover
+    background-color: #fdfcf3
+  &li:hover a
+    color: #4e4e4c
+  li.active
+    +linear-gradient(color-stops(#5c1112, #f8f4ea))
+    a
+      color: #FFF
+    &:hover a
+      color: #FFF
+    
+
+
