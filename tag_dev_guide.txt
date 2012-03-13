@@ -1,0 +1,20 @@
+
+Those Apple Guys Dev/Deployment Guide
+
+Dev:
+
+1. TAG site is built on compass framework.  So always edit style in SASS files, and use "compass watch" command in terminal to track changes and update CSS files
+2. Use normal Git committing protocol
+3. To push live, fetch latest commit in the projects/those_apple_guys_deploy directory, and the git ftp push to the TAG FTP server
+
+Notes:
+What is where?
+  When possible, move to SASS partials, to keep the screen.sass file light.  These will be compiled into the screen.css file automatically (by "compass watch") before committing.
+  Includes have been used for parts of the site that are shared communaly (like Header, Footer, Meta tags, etc.)
+  The goal currently has been to move everything from static assets to dynamically generated CSS3 elements.  The idea is, if the site looks advanced and awesome, the product/service likely is as well!
+
+TODO:
+
+  So many things.
+  Get Chip's input so the site is actually good.
+  Re-do services page (move to jQuery/AJAX)
