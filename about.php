@@ -3,11 +3,11 @@
 
 
 <body>
-<div id="container">
+
 <!-- Header & Navigation -->
 <?php include('includes/header.php'); ?>
 <?php include('includes/nav.php'); ?>
-
+<div id="container">
 <!--Bio Start-->
 <div id="bio_group">
 <div class="bio" id="chip">

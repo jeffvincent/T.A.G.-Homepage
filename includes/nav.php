@@ -1,5 +1,6 @@
 
 <!--Navigation Start-->
+<div id="navbar_wrapper">
 <div id="navbar">
 <ul>
 <li title="Home | Those Apple Guys">
@@ -12,4 +13,5 @@
   <a href="contact">CONTACT</a></li>
 </ul>
 <h2>Apple Computer Repair and Support</h2>
+</div>
 </div>

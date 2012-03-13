@@ -7,7 +7,7 @@
  *Primary use:	Those Apple Guys 
  *
  *------------------------------------------------------------------- */
-/* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,51 +29,51 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
 /* incase an inverted custom gradient isn't specified */
-/* line 177, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 177, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class, button.about_us {
   font-family: "Lucida Grande", Lucida, Arial, sans-serif;
   background: url('/images/button_bg.png?1331402483') repeat-x bottom left;
@@ -86,12 +86,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-style: solid;
   font-weight: bold;
 }
-/* line 165, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 165, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class::-moz-focus-inner, button.about_us::-moz-focus-inner {
   border: none;
   padding: 0;
 }
-/* line 168, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 168, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class:focus, button.about_us:focus {
   outline: none;
 }
@@ -103,21 +103,48 @@ body#home {
 
 /*  ************* HOME: About_Us Layout  ************* */
 /* line 20, ../sass/home_screen.sass */
-#about_us {
-  clear: both;
-  padding-bottom: 10%;
-  position: static;
-  background: transparent url(../images/about/bg.png) no-repeat;
-  z-index: -2;
+#about_us_wrapper {
   width: 100%;
-  height: 10.95em;
+  position: relative;
+  top: -10px;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #31471f), color-stop(50%, #2b3e1b), color-stop(100%, #243417));
+  background-image: -webkit-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
+  background-image: -moz-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
+  background-image: -o-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
+  background-image: -ms-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
+  background-image: linear-gradient(bottom, #31471f, #2b3e1b, #243417);
 }
-/* line 28, ../sass/home_screen.sass */
+/* line 25, ../sass/home_screen.sass */
+#about_us_wrapper:after {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #151716), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #151716, #ffffff);
+  background-image: -moz-linear-gradient(top, #151716, #ffffff);
+  background-image: -o-linear-gradient(top, #151716, #ffffff);
+  background-image: -ms-linear-gradient(top, #151716, #ffffff);
+  background-image: linear-gradient(top, #151716, #ffffff);
+  content: "";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 10px;
+  color: black;
+  bottom: -10px;
+  z-index: 5;
+}
+
+/* line 35, ../sass/home_screen.sass */
+#about_us {
+  width: 1000px;
+  margin: 0.5em auto 0.2em;
+  position: static;
+  z-index: -2;
+}
+/* line 40, ../sass/home_screen.sass */
 #about_us #guys_shadow {
   float: left;
   width: 28.5em;
 }
-/* line 31, ../sass/home_screen.sass */
+/* line 43, ../sass/home_screen.sass */
 #about_us #guys_shadow img {
   display: block;
   position: relative;
@@ -125,19 +152,19 @@ body#home {
   padding-top: 0.3em;
 }
 
-/* line 37, ../sass/home_screen.sass */
+/* line 49, ../sass/home_screen.sass */
 #computernerds {
   float: right;
   text-align: center;
 }
-/* line 40, ../sass/home_screen.sass */
+/* line 52, ../sass/home_screen.sass */
 #computernerds img#computernerds {
   display: block;
   position: relative;
   width: 32em;
   margin: 5em auto 2em;
 }
-/* line 45, ../sass/home_screen.sass */
+/* line 57, ../sass/home_screen.sass */
 #computernerds img#who_we_are {
   position: relative;
   width: 12em;
@@ -146,28 +173,28 @@ body#home {
   top: 10em;
   left: 25em;
 }
-/* line 52, ../sass/home_screen.sass */
+/* line 64, ../sass/home_screen.sass */
 #computernerds p {
   margin: 5em auto 2em;
 }
-/* line 54, ../sass/home_screen.sass */
+/* line 66, ../sass/home_screen.sass */
 #computernerds span {
   text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   color: #c8c5c5;
 }
-/* line 59, ../sass/home_screen.sass */
+/* line 71, ../sass/home_screen.sass */
 #computernerds span:first-child {
   font-size: 45px;
 }
-/* line 61, ../sass/home_screen.sass */
+/* line 73, ../sass/home_screen.sass */
 #computernerds span:last-child {
   font-size: 32px;
   margin-left: 40px;
 }
 
-/* line 65, ../sass/home_screen.sass */
+/* line 77, ../sass/home_screen.sass */
 button.about_us {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -205,11 +232,11 @@ button.about_us {
   margin: 0 auto;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us, button.about_us:visited {
   color: white;
 }
-/* line 31, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 31, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us:hover, button.about_us:focus {
   background-color: #141414;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #696969), color-stop(10%, #3b3b3b), color-stop(50%, #0d0d0d), color-stop(50%, #050505), color-stop(100%, #1f1f1f));
@@ -221,11 +248,11 @@ button.about_us:hover, button.about_us:focus {
   border-color: black;
   text-shadow: black 0px 1px 1px;
 }
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us:hover, button.about_us:hover:visited, button.about_us:focus, button.about_us:focus:visited {
   color: white;
 }
-/* line 36, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 36, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us:active {
   background-color: #0d0d0d;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0f0f0f), color-stop(30%, #141414), color-stop(50%, #0a0a0a), color-stop(50%, #030303), color-stop(100%, #242424));
@@ -241,13 +268,13 @@ button.about_us:active {
   -o-box-shadow: black 0 0.08em 0.2em 1px inset;
   box-shadow: black 0 0.08em 0.2em 1px inset;
 }
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+/* line 116, /Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 button.about_us:active, button.about_us:active:visited {
   color: white;
 }
 
 /*  ************* Content Layout  ************* */
-/* line 76, ../sass/home_screen.sass */
+/* line 88, ../sass/home_screen.sass */
 #description {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -265,13 +292,13 @@ button.about_us:active, button.about_us:active:visited {
   padding: 1em;
   background: white no-repeat;
 }
-/* line 84, ../sass/home_screen.sass */
+/* line 96, ../sass/home_screen.sass */
 #description h2 {
   color: #525252;
   text-transform: uppercase;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 88, ../sass/home_screen.sass */
+/* line 100, ../sass/home_screen.sass */
 #description p {
   color: #282828;
   text-align: left;
@@ -283,7 +310,7 @@ button.about_us:active, button.about_us:active:visited {
   line-height: 1.2em;
 }
 
-/* line 99, ../sass/home_screen.sass */
+/* line 111, ../sass/home_screen.sass */
 #container #content {
   float: left;
   width: 100%;
@@ -296,7 +323,7 @@ button.about_us:active, button.about_us:active:visited {
   padding-bottom: 2em;
 }
 
-/* line 110, ../sass/home_screen.sass */
+/* line 122, ../sass/home_screen.sass */
 #video_area {
   float: left;
   clear: none;
@@ -307,18 +334,18 @@ button.about_us:active, button.about_us:active:visited {
   margin: 3em auto auto;
 }
 
-/* line 119, ../sass/home_screen.sass */
+/* line 131, ../sass/home_screen.sass */
 #video_area object {
   padding: 1.5em;
 }
 
-/* line 122, ../sass/home_screen.sass */
+/* line 134, ../sass/home_screen.sass */
 img#video {
   width: 100%;
 }
 
 /*  ************* Campaign Layout  ************* */
-/* line 127, ../sass/home_screen.sass */
+/* line 139, ../sass/home_screen.sass */
 #campaign {
   width: 100%;
   height: 100%;
@@ -329,7 +356,7 @@ img#video {
   border-top: 1px solid #d3d2d3;
 }
 
-/* line 136, ../sass/home_screen.sass */
+/* line 148, ../sass/home_screen.sass */
 #tagus {
   float: right;
   width: 40%;
@@ -338,12 +365,13 @@ img#video {
   top: 4em;
   right: 2em;
 }
-/* line 143, ../sass/home_screen.sass */
+/* line 155, ../sass/home_screen.sass */
 #tagus blockquote {
   color: #4a4a4a;
   font-style: italic;
   text-align: center;
   margin: 0;
+  font-size: 120%;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 1em;
@@ -351,7 +379,7 @@ img#video {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 154, ../sass/home_screen.sass */
+/* line 167, ../sass/home_screen.sass */
 #video_promo {
   clear: left;
   float: left;
@@ -359,7 +387,7 @@ img#video {
   padding-right: 1em;
 }
 
-/* line 160, ../sass/home_screen.sass */
+/* line 173, ../sass/home_screen.sass */
 #top_footer #backgrounds {
   float: right;
   width: 24em;
@@ -372,7 +400,7 @@ img#video {
   left: 45em;
 }
 
-/* line 171, ../sass/home_screen.sass */
+/* line 184, ../sass/home_screen.sass */
 #video_promo img.promos {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -381,7 +409,7 @@ img#video {
   padding-left: 0.5em;
 }
 
-/* line 178, ../sass/home_screen.sass */
+/* line 191, ../sass/home_screen.sass */
 #backgrounds img#background {
   position: absolute;
   z-index: -1;

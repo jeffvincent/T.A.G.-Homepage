@@ -10,7 +10,7 @@
   background: white url(../images/backgrounds/top_footer.png) repeat-x left bottom
   float: left
   display: block
-  margin-bottom: 1em
+  margin-bottom: 2em
   padding: 1em 2em
   font-family: $font
   h3, h5
@@ -124,18 +124,32 @@
   color: white
   text-align: center
   position: relative
-  background: transparent url(../images/backgrounds/bg_bottom.png) repeat-x center top
+  +background-image(linear-gradient(bottom, color-stops(#690606, #5e1213)))
+  border-top: 1px solid #151716
   margin-right: auto
   margin-left: auto
   margin-bottom: auto
+  &:before
+    +single-box-shadow(#333, 0px, -5px, 10px)
+    content: ""
+    position: relative
+    height: 10px
+    width: 100%
+    top: -10
+    display: block
 
-p#top
-  background: url(../images/backgrounds/footer_line.png) no-repeat center bottom
-
-#footer
-  > p
+  p
     padding: 2em
     position: relative
     color: #f8f4ea
   p a
     color: white
+
+#top
+  width: 900px
+  margin: 0 auto
+  border-bottom: 1px solid #151716 
+  &:after
+    border-bottom: 1px solid white
+    display: block
+    content: ""

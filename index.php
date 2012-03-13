@@ -3,13 +3,16 @@
 <?php include('includes/head.php'); ?>
 
 <body id="home">
-<div id="container">
+
 
 <!--Header Start & Navigation Start-->
 <?php include('includes/header.php'); ?>
 <?php include('includes/nav.php'); ?>
 
-<!--About Us Start-->
+
+
+  <!--About Us Start-->
+<div id="about_us_wrapper">
 <div id="about_us">
 <div id="guys_shadow">
 <img title="Apple Guys" alt="Apple Guys" src="images/logo/apple_guys.png" /></div>
@@ -21,7 +24,8 @@
 </div>
 <div id="clear" style="clear:both;"></div>
 </div>
-
+</div>
+<div id="container">
 <!--Content Start-->
 <div id="content">
 

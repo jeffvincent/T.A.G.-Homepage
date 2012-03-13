@@ -17,14 +17,26 @@ body#home
 
 /*  ************* HOME: About_Us Layout  *************
 
-#about_us
-  clear: both
-  padding-bottom: 10%
-  position: static
-  background: transparent url(../images/about/bg.png) no-repeat
-  z-index: -2
+#about_us_wrapper
   width: 100%
-  height: 10.95em
+  position: relative
+  top: -10px
+  +background-image(linear-gradient(bottom, color-stops(#31471f, #2b3e1b, #243417)))
+  &:after
+    +background-image(linear-gradient(top,$fade-gradient))
+    content: ""
+    position: absolute
+    width: 100%
+    display: block
+    height: 10px
+    color: black
+    bottom: -10px
+    z-index: 5
+#about_us
+  width: 1000px
+  margin: .5em auto .2em
+  position: static
+  z-index: -2
   #guys_shadow
     float: left
     width: 28.5em
@@ -33,7 +45,7 @@ body#home
       position: relative 
       width: 28.5em
       padding-top: .3em
-  
+
 #computernerds
   float: right
   text-align: center
@@ -145,6 +157,7 @@ img#video
     font-style: italic
     text-align: center
     margin: 0
+    font-size: 120%
     padding-top: 0
     padding-bottom: 0
     padding-left: 1em

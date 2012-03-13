@@ -1,5 +1,5 @@
 <div id="footer">
-<p id="top">Those Apple Guys  &raquo; About | Apple Computer Repair, Mac Computer Repair, Apple Computer Specialist, Mac Computer Specialist</p>
+<div id="top"><p>Those Apple Guys  &raquo; About | Apple Computer Repair, Mac Computer Repair, Apple Computer Specialist, Mac Computer Specialist</p></div>
 <p>&copy; <?php echo date("Y") ?> Those Apple Guys | <a href="mailto:info@thoseappleguys.com" title="General Inquires for Those Apple Guys">info@thoseappleguys.com</a> | Site by <a href="http://www.maxnanis.com" title="Max Nanis" target="_blank">Max Nanis</a></p>
 </div>
 

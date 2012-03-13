@@ -1,10 +1,25 @@
 /*  ************* Header Layout  *************
 
+#header_wrap
+  width: 100%
+  position: relative
+  +background-image(linear-gradient(bottom, color-stops(#690606, #5e1213)))
+  &:after
+    +single-box-shadow(#5e1213, 0px, -5px, 10px)
+    height: 10px
+    position: relative
+    width: 100%
+    content: ""
+    bottom: -10px
+    display: block
+
 #header
   clear: both
+  width: 1000px
   font-size: 1px
   color: #fefdfb
   height: 129px
+  margin: 0 auto
   a
     text-decoration: none
   img#header_logo
