@@ -22,59 +22,100 @@
   +border-radius  
   display: block
   position: relative
-  float: left
   border: .1em solid $border-color
+  width: $topfooter-width
   margin-top: $content-margin
   margin-bottom: $content-margin
-  background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom
-
-#service_info
-  float: right
-  height: 100%
-  background: transparent none repeat-x center center
-  clear: none
-  position: relative
-  width: 71%
-  p
-    font-family: $font 
-    word-spacing: .2em
-    padding: 1em 2em
-    line-height: 150%
-  h4
-    text-align: center
-    text-transform: uppercase
-    font: 200% / 120% Georgia, "Times New Roman", Times, serif
-    width: 100%
-    padding-top: 1em
-    padding-bottom: .5em
-    letter-spacing: .06em
-
-#services
+  
   h1
     display: block
     border-bottom: .1em solid #d3d2d3
-    float: left
     color: $footer-h-color 
-    font: 2em Georgia, "Times New Roman", Times, serif
+    font: 2em $font 
     padding: .5em 2em .5em .5em
     width: 92%
-    background: url(../images/backgrounds/h1_bg.png) repeat-x center top
-  ol
-    float: left
+    +background-image(linear-gradient(top, #fff, #f9f5ec))
+    +border-top-radius
+ 
+#services_content
+  display: block
+  width: 100%
+  background: white url(../images/logo/apple_guys_bg.png) no-repeat right bottom
+  +border-bottom-radius
+
+#services_menu
+  display: inline-block
+  width: 250px
+  margin-left: -1px
+  +background-image(linear-gradient(left, #fff, #f9f5ec))
+  +border-bottom-left-radius
+  ul
     display: block
     position: relative
     list-style-type: none
-    padding: 1em
-    width: 25%
+    padding: 1em 0
     height: 100%
-    border-right: .1em solid #d3d2d3
-    background: url(../images/backgrounds/ol_bg.png) repeat-y left top
-    clear: both
-    -moz-border-radius-bottomleft: 10px
-    -webkit-border-bottom-left-radius: 10px      
+    border-right: 2px solid #d3d2d3
   li
-    padding-top: 1em
-    padding-bottom: 1em
+    padding: 1em
+    padding-right: 0
     border-bottom: .1em solid #d3d2d3
     color: #817b7b
-    font: bold 1em Georgia, "Times New Roman", Times, serif
+    font: bold 15px $font 
+    &:hover
+      a
+        color: $footer-h-color
+    &:last-child
+      border: none
+    a
+      color: #817B7B
+  .selected
+    background-color: $footer-h-color
+    a
+      color: white
+
+#service_info
+  display: inline-block
+  vertical-align: top
+  margin: 50px 20px
+  height: 100%
+  width: 700px
+  position: relative
+  div.services_detail
+    display: none
+    p
+      font-family: $font 
+      word-spacing: .2em
+      padding: 1em 2em
+      line-height: 150%
+    h4
+      text-align: center
+      text-transform: uppercase
+      font: 200% / 120% $font 
+      width: 100%
+      padding-top: 1em
+      padding-bottom: .5em
+      letter-spacing: .06em
+
+.show
+  display: block
+
+#towns_lists
+  width: 400px
+  margin: 20px auto
+ul.towns_list
+  display: inline-block
+  &:last-child
+    margin-left: 90px
+  li
+    padding-bottom: 10px
+    font-weight: bold
+    border: none
+    font: $font
+    color: #515151
+
+
+
+
+
+

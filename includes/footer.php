@@ -8,6 +8,11 @@ var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "htt
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
+  (function($) {
+    $('#intro.services_detail').show();
+  })(jQuery);
+</script>
+<script type="text/javascript">
 try {
 var pageTracker = _gat._getTracker("UA-8887550-1");
 pageTracker._setDomainName(".thoseappleguys.com");
