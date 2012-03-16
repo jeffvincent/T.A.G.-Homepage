@@ -3,7 +3,7 @@
 <div id="navbar_wrapper">
 <div id="navbar">
 <ul>
-<li id="home_nav_menu" class="navbar" title="Home | Those Apple Guys">
+<li id="home_nav_menu" href="../" class="navbar" title="Home | Those Apple Guys">
   <a href="../">HOME</a>
 </li><li id="about_nav_menu" class="navbar" title="About Those Apple Guys">
   <a href="about">ABOUT</a>
