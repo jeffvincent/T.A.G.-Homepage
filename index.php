@@ -2,7 +2,7 @@
 
 <?php include('includes/head.php'); ?>
 
-<body id="home">
+<body>
 
 
 <!--Header Start & Navigation Start-->

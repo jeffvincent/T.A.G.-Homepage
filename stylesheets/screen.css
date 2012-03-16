@@ -366,7 +366,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: transparent;
 }
 /* line 38, ../sass/partials/_navbar.sass */
-#navbar li {
+#navbar .navbar {
   list-style: none;
   padding: 0.8em 1em;
   max-width: 120px;
@@ -375,21 +375,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: 1px solid #987c5c;
 }
 /* line 45, ../sass/partials/_navbar.sass */
-#navbar li a {
+#navbar .navbar a {
   text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
   display: block;
   font-size: 1.1em;
 }
 /* line 49, ../sass/partials/_navbar.sass */
-#navbar li:nth-child(4) {
+#navbar .navbar:nth-child(4) {
   border-right: 1px solid #987c5c;
 }
 /* line 51, ../sass/partials/_navbar.sass */
-#navbar li:hover {
+#navbar .navbar:hover {
   background-color: #fdfcf3;
 }
 /* line 53, ../sass/partials/_navbar.sass */
-#navbar li:hover a {
+#navbar .navbar:hover a {
   color: #4e4e4c;
 }
 /* line 55, ../sass/partials/_navbar.sass */
@@ -482,6 +482,12 @@ img#quote {
 
 /* line 17, ../sass/screen.sass */
 body {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f4ea), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #f8f4ea, #ffffff);
+  background-image: -moz-linear-gradient(top, #f8f4ea, #ffffff);
+  background-image: -o-linear-gradient(top, #f8f4ea, #ffffff);
+  background-image: -ms-linear-gradient(top, #f8f4ea, #ffffff);
+  background-image: linear-gradient(top, #f8f4ea, #ffffff);
   height: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }

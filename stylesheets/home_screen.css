@@ -96,13 +96,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   outline: none;
 }
 
-/* line 15, ../sass/home_screen.sass */
-body#home {
-  background: url(../images/backgrounds/bg_home.png) repeat-x;
-}
-
 /*  ************* HOME: About_Us Layout  ************* */
-/* line 20, ../sass/home_screen.sass */
+/* line 18, ../sass/home_screen.sass */
 #about_us_wrapper {
   width: 100%;
   position: relative;
@@ -114,7 +109,7 @@ body#home {
   background-image: -ms-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
   background-image: linear-gradient(bottom, #31471f, #2b3e1b, #243417);
 }
-/* line 25, ../sass/home_screen.sass */
+/* line 23, ../sass/home_screen.sass */
 #about_us_wrapper:after {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #151716), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(top, #151716, #ffffff);
@@ -132,19 +127,19 @@ body#home {
   z-index: 5;
 }
 
-/* line 35, ../sass/home_screen.sass */
+/* line 33, ../sass/home_screen.sass */
 #about_us {
   width: 1000px;
   margin: 0.5em auto 0.2em;
   position: static;
   z-index: -2;
 }
-/* line 40, ../sass/home_screen.sass */
+/* line 38, ../sass/home_screen.sass */
 #about_us #guys_shadow {
   float: left;
   width: 28.5em;
 }
-/* line 43, ../sass/home_screen.sass */
+/* line 41, ../sass/home_screen.sass */
 #about_us #guys_shadow img {
   display: block;
   position: relative;
@@ -152,19 +147,19 @@ body#home {
   padding-top: 0.3em;
 }
 
-/* line 49, ../sass/home_screen.sass */
+/* line 47, ../sass/home_screen.sass */
 #computernerds {
   float: right;
   text-align: center;
 }
-/* line 52, ../sass/home_screen.sass */
+/* line 50, ../sass/home_screen.sass */
 #computernerds img#computernerds {
   display: block;
   position: relative;
   width: 32em;
   margin: 5em auto 2em;
 }
-/* line 57, ../sass/home_screen.sass */
+/* line 55, ../sass/home_screen.sass */
 #computernerds img#who_we_are {
   position: relative;
   width: 12em;
@@ -173,28 +168,28 @@ body#home {
   top: 10em;
   left: 25em;
 }
-/* line 64, ../sass/home_screen.sass */
+/* line 62, ../sass/home_screen.sass */
 #computernerds p {
   margin: 5em auto 2em;
 }
-/* line 66, ../sass/home_screen.sass */
+/* line 64, ../sass/home_screen.sass */
 #computernerds span {
   text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   color: #c8c5c5;
 }
-/* line 71, ../sass/home_screen.sass */
+/* line 69, ../sass/home_screen.sass */
 #computernerds span:first-child {
   font-size: 45px;
 }
-/* line 73, ../sass/home_screen.sass */
+/* line 71, ../sass/home_screen.sass */
 #computernerds span:last-child {
   font-size: 32px;
   margin-left: 40px;
 }
 
-/* line 77, ../sass/home_screen.sass */
+/* line 75, ../sass/home_screen.sass */
 button.about_us {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -274,7 +269,7 @@ button.about_us:active, button.about_us:active:visited {
 }
 
 /*  ************* Content Layout  ************* */
-/* line 88, ../sass/home_screen.sass */
+/* line 86, ../sass/home_screen.sass */
 #description {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -292,13 +287,13 @@ button.about_us:active, button.about_us:active:visited {
   padding: 1em;
   background: white no-repeat;
 }
-/* line 96, ../sass/home_screen.sass */
+/* line 94, ../sass/home_screen.sass */
 #description h2 {
   color: #525252;
   text-transform: uppercase;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 100, ../sass/home_screen.sass */
+/* line 98, ../sass/home_screen.sass */
 #description p {
   color: #282828;
   text-align: left;
@@ -310,7 +305,7 @@ button.about_us:active, button.about_us:active:visited {
   line-height: 1.2em;
 }
 
-/* line 111, ../sass/home_screen.sass */
+/* line 109, ../sass/home_screen.sass */
 #container #content {
   float: left;
   width: 100%;
@@ -323,7 +318,7 @@ button.about_us:active, button.about_us:active:visited {
   padding-bottom: 2em;
 }
 
-/* line 122, ../sass/home_screen.sass */
+/* line 120, ../sass/home_screen.sass */
 #video_area {
   float: left;
   clear: none;
@@ -334,18 +329,18 @@ button.about_us:active, button.about_us:active:visited {
   margin: 3em auto auto;
 }
 
-/* line 131, ../sass/home_screen.sass */
+/* line 129, ../sass/home_screen.sass */
 #video_area object {
   padding: 1.5em;
 }
 
-/* line 134, ../sass/home_screen.sass */
+/* line 132, ../sass/home_screen.sass */
 img#video {
   width: 100%;
 }
 
 /*  ************* Campaign Layout  ************* */
-/* line 139, ../sass/home_screen.sass */
+/* line 137, ../sass/home_screen.sass */
 #campaign {
   width: 100%;
   height: 100%;
@@ -356,7 +351,7 @@ img#video {
   border-top: 1px solid #d3d2d3;
 }
 
-/* line 148, ../sass/home_screen.sass */
+/* line 146, ../sass/home_screen.sass */
 #tagus {
   float: right;
   width: 40%;
@@ -365,7 +360,7 @@ img#video {
   top: 2em;
   right: 4em;
 }
-/* line 155, ../sass/home_screen.sass */
+/* line 153, ../sass/home_screen.sass */
 #tagus blockquote {
   color: #4a4a4a;
   font-style: italic;
@@ -379,7 +374,7 @@ img#video {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 167, ../sass/home_screen.sass */
+/* line 165, ../sass/home_screen.sass */
 #video_promo {
   clear: left;
   float: left;
@@ -387,7 +382,7 @@ img#video {
   padding-right: 1em;
 }
 
-/* line 173, ../sass/home_screen.sass */
+/* line 171, ../sass/home_screen.sass */
 #top_footer #backgrounds {
   float: right;
   width: 24em;
@@ -400,7 +395,7 @@ img#video {
   left: 45em;
 }
 
-/* line 184, ../sass/home_screen.sass */
+/* line 182, ../sass/home_screen.sass */
 #video_promo img.promos {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -409,7 +404,7 @@ img#video {
   padding-left: 0.5em;
 }
 
-/* line 191, ../sass/home_screen.sass */
+/* line 189, ../sass/home_screen.sass */
 #backgrounds img#background {
   position: absolute;
   z-index: -1;

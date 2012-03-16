@@ -88,17 +88,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 4, ../sass/services_screen.sass */
-#navbar #services a {
-  width: 120px;
-  background-position: -240px center;
-}
-/* line 7, ../sass/services_screen.sass */
-#navbar #services a:hover {
-  width: 120px;
-  background-position: -240px center;
-}
-
-/* line 11, ../sass/services_screen.sass */
 #services {
   -moz-box-shadow: 0px 0px 8px #333333;
   -webkit-box-shadow: 0px 0px 8px #333333;
@@ -117,7 +106,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-top: 4em;
   margin-bottom: 4em;
 }
-/* line 20, ../sass/services_screen.sass */
+/* line 13, ../sass/services_screen.sass */
 #services h1 {
   display: block;
   cursor: pointer;
@@ -146,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-top-right-radius: 10px;
 }
 
-/* line 31, ../sass/services_screen.sass */
+/* line 24, ../sass/services_screen.sass */
 #services_content {
   display: block;
   width: 100%;
@@ -165,7 +154,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-bottom-right-radius: 10px;
 }
 
-/* line 37, ../sass/services_screen.sass */
+/* line 30, ../sass/services_screen.sass */
 #services_menu {
   display: inline-block;
   width: 250px;
@@ -184,7 +173,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -khtml-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-/* line 44, ../sass/services_screen.sass */
+/* line 37, ../sass/services_screen.sass */
 #services_menu ul {
   display: block;
   position: relative;
@@ -193,7 +182,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   border-right: 2px solid #d3d2d3;
 }
-/* line 51, ../sass/services_screen.sass */
+/* line 44, ../sass/services_screen.sass */
 #services_menu li {
   padding: 1em;
   padding-right: 0;
@@ -202,33 +191,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   cursor: pointer;
   font: bold 15px Georgia, "Times New Roman", Times, serif;
 }
-/* line 59, ../sass/services_screen.sass */
+/* line 52, ../sass/services_screen.sass */
 #services_menu li:hover a {
   color: #515151;
 }
-/* line 61, ../sass/services_screen.sass */
+/* line 54, ../sass/services_screen.sass */
 #services_menu li:last-child {
   border: none;
 }
-/* line 63, ../sass/services_screen.sass */
+/* line 56, ../sass/services_screen.sass */
 #services_menu li a {
   color: #817b7b;
 }
-/* line 65, ../sass/services_screen.sass */
+/* line 58, ../sass/services_screen.sass */
 #services_menu .selected {
   background-color: #515151;
   margin-right: -1px;
 }
-/* line 68, ../sass/services_screen.sass */
+/* line 61, ../sass/services_screen.sass */
 #services_menu .selected a {
   color: white;
 }
-/* line 71, ../sass/services_screen.sass */
+/* line 64, ../sass/services_screen.sass */
 #services_menu .selected:hover a {
   color: white;
 }
 
-/* line 74, ../sass/services_screen.sass */
+/* line 67, ../sass/services_screen.sass */
 #service_info {
   display: inline-block;
   vertical-align: top;
@@ -237,18 +226,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 700px;
   position: relative;
 }
-/* line 81, ../sass/services_screen.sass */
+/* line 74, ../sass/services_screen.sass */
 #service_info div.services_detail {
   display: none;
 }
-/* line 83, ../sass/services_screen.sass */
+/* line 76, ../sass/services_screen.sass */
 #service_info div.services_detail p {
   font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
   padding: 1em 2em;
   line-height: 150%;
 }
-/* line 88, ../sass/services_screen.sass */
+/* line 81, ../sass/services_screen.sass */
 #service_info div.services_detail h4 {
   text-align: center;
   text-transform: uppercase;
@@ -259,21 +248,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   letter-spacing: 0.06em;
 }
 
-/* line 97, ../sass/services_screen.sass */
+/* line 90, ../sass/services_screen.sass */
 #towns_lists {
   width: 400px;
   margin: 20px auto;
 }
 
-/* line 100, ../sass/services_screen.sass */
+/* line 93, ../sass/services_screen.sass */
 ul.towns_list {
   display: inline-block;
 }
-/* line 102, ../sass/services_screen.sass */
+/* line 95, ../sass/services_screen.sass */
 ul.towns_list:last-child {
   margin-left: 90px;
 }
-/* line 104, ../sass/services_screen.sass */
+/* line 97, ../sass/services_screen.sass */
 ul.towns_list li {
   padding-bottom: 10px;
   font-weight: bold;

@@ -12,7 +12,13 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
     $('#intro_detail.services_detail').show();
     var services_list = $('#services_list');
 
-    function navChange(chapter) {
+    function navBarChange() {
+      var location = window.location.href;
+      var arr = location.split('/');
+      highlighted = arr[arr.length - 1];
+    }; 
+
+    function servicesNavChange(chapter) {
       $('.services_detail').hide();
       var chapter = "#" + chapter + "_detail";
       $(chapter).show();
@@ -24,13 +30,13 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
     };
 
     $('h1#intro').on('click', function() {
-      navChange($(this).attr("id"));
+      servicesNavChange($(this).attr("id"));
     });
 
     services_list.children('li').on('click', function() {
       var $this = $(this);
       selectimo($this);
-      navChange($this.attr("id"));
+      servicesNavChange($this.attr("id"));
     });
 
   })(jQuery);

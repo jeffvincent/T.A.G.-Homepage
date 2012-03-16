@@ -21,7 +21,6 @@
 
 <!-- Style Stuff -->
 <link href="stylesheets/screen.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="../shadowbox.css" />
 <!--[if IE]>
   <link rel="stylesheet" type="text/css" href="../all-ie-only.css" />
   <link rel="stylesheet" type="text/css" href="../all-ie-only_home.css" />
@@ -29,20 +28,10 @@
 
 <!-- Page Specific Style (unnecessary) -->
 <link href="stylesheets/home_screen.css" rel="stylesheet" type="text/css" media="all" />
-<link href="stylesheets/about_screen.css" rel="stylesheet" type="text/css" media="all" />
 <link href="stylesheets/services_screen.css" rel="stylesheet" type="text/css" media="all" />
 
 <!-- Script Stuff -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="../shadowbox.js"></script>
-<script type="text/javascript">
-  Shadowbox.init({
-      language: 'en',
-      players:  ['flv']   
-});
-</script>
-
-
 <?php $ran = rand(2, 14); ?>
     
 </head>
