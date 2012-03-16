@@ -172,8 +172,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -ms-border-bottom-left-radius: 10px;
   -khtml-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
 }
-/* line 37, ../sass/services_screen.sass */
+/* line 40, ../sass/services_screen.sass */
 #services_menu ul {
   display: block;
   position: relative;
@@ -182,7 +185,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   border-right: 2px solid #d3d2d3;
 }
-/* line 44, ../sass/services_screen.sass */
+/* line 47, ../sass/services_screen.sass */
 #services_menu li {
   padding: 1em;
   padding-right: 0;
@@ -191,33 +194,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   cursor: pointer;
   font: bold 15px Georgia, "Times New Roman", Times, serif;
 }
-/* line 52, ../sass/services_screen.sass */
+/* line 55, ../sass/services_screen.sass */
 #services_menu li:hover a {
   color: #515151;
 }
-/* line 54, ../sass/services_screen.sass */
+/* line 57, ../sass/services_screen.sass */
 #services_menu li:last-child {
   border: none;
 }
-/* line 56, ../sass/services_screen.sass */
+/* line 59, ../sass/services_screen.sass */
 #services_menu li a {
   color: #817b7b;
 }
-/* line 58, ../sass/services_screen.sass */
+/* line 61, ../sass/services_screen.sass */
 #services_menu .selected {
   background-color: #515151;
   margin-right: -1px;
 }
-/* line 61, ../sass/services_screen.sass */
+/* line 64, ../sass/services_screen.sass */
 #services_menu .selected a {
   color: white;
 }
-/* line 64, ../sass/services_screen.sass */
+/* line 67, ../sass/services_screen.sass */
 #services_menu .selected:hover a {
   color: white;
 }
 
-/* line 67, ../sass/services_screen.sass */
+/* line 70, ../sass/services_screen.sass */
 #service_info {
   display: inline-block;
   vertical-align: top;
@@ -225,19 +228,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   width: 700px;
   position: relative;
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
 }
-/* line 74, ../sass/services_screen.sass */
+/* line 80, ../sass/services_screen.sass */
 #service_info div.services_detail {
   display: none;
 }
-/* line 76, ../sass/services_screen.sass */
+/* line 82, ../sass/services_screen.sass */
 #service_info div.services_detail p {
   font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
   padding: 1em 2em;
   line-height: 150%;
 }
-/* line 81, ../sass/services_screen.sass */
+/* line 87, ../sass/services_screen.sass */
 #service_info div.services_detail h4 {
   text-align: center;
   text-transform: uppercase;
@@ -248,21 +254,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   letter-spacing: 0.06em;
 }
 
-/* line 90, ../sass/services_screen.sass */
+/* line 96, ../sass/services_screen.sass */
 #towns_lists {
   width: 400px;
   margin: 20px auto;
 }
 
-/* line 93, ../sass/services_screen.sass */
+/* line 99, ../sass/services_screen.sass */
 ul.towns_list {
   display: inline-block;
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
 }
-/* line 95, ../sass/services_screen.sass */
+/* line 104, ../sass/services_screen.sass */
 ul.towns_list:last-child {
   margin-left: 90px;
 }
-/* line 97, ../sass/services_screen.sass */
+/* line 106, ../sass/services_screen.sass */
 ul.towns_list li {
   padding-bottom: 10px;
   font-weight: bold;

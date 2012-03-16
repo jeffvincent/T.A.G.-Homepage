@@ -1,12 +1,3 @@
-/*------------------------------------------------------------------
- *[Master Stylesheet] 
- *
- *Author:			Max Nanis <MaxN [at] bennington [dot] edu>
- *Version:	    1.1
- *Last change:	1/20/10
- *Primary use:	Those Apple Guys 
- *
- *------------------------------------------------------------------- */
 /* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -481,7 +472,7 @@ img#quote {
   bottom: -53px;
 }
 
-/* line 17, ../sass/screen.sass */
+/* line 9, ../sass/screen.sass */
 body {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f4ea), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(top, #f8f4ea, #ffffff);
@@ -493,12 +484,12 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 21, ../sass/screen.sass */
+/* line 13, ../sass/screen.sass */
 a {
   text-decoration: none;
 }
 
-/* line 24, ../sass/screen.sass */
+/* line 16, ../sass/screen.sass */
 #service_info img.services_pics {
   position: relative;
   float: right;
@@ -508,7 +499,7 @@ a {
   margin-left: 1em;
 }
 
-/* line 32, ../sass/screen.sass */
+/* line 24, ../sass/screen.sass */
 #container {
   width: 1000px;
   padding: 0;
@@ -518,7 +509,7 @@ a {
   margin: 0 auto;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 32, ../sass/screen.sass */
 img#guys {
   position: absolute;
   margin-top: 24%;
@@ -527,13 +518,13 @@ img#guys {
 }
 
 /*  ************* Content Layout  ************* */
-/* line 48, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 #contact_locations {
   text-align: center;
   background: transparent no-repeat;
   margin: 3em auto 2em auto;
 }
-/* line 52, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 #contact_locations h2 {
   width: 100%;
   text-align: center;
@@ -542,7 +533,7 @@ img#guys {
   margin-bottom: 0.5em;
 }
 
-/* line 59, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 .contact_bubbles {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -565,58 +556,58 @@ img#guys {
   position: relative;
   padding: 1em;
 }
-/* line 67, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 .contact_bubbles .big_phone {
   float: left;
   width: 40%;
 }
-/* line 71, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 .contact_bubbles .big_phone a img {
   width: 230px;
 }
-/* line 73, ../sass/screen.sass */
+/* line 65, ../sass/screen.sass */
 .contact_bubbles .contact_deets {
   float: right;
 }
-/* line 75, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 .contact_bubbles .contact_deets a {
   text-decoration: none;
   color: #525252;
 }
-/* line 78, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 .contact_bubbles .contact_deets span.pc {
   color: #525252;
   cursor: pointer;
 }
-/* line 81, ../sass/screen.sass */
+/* line 73, ../sass/screen.sass */
 .contact_bubbles .contact_deets img {
   width: 150px;
   display: block;
   position: relative;
   margin: 1em auto;
 }
-/* line 86, ../sass/screen.sass */
+/* line 78, ../sass/screen.sass */
 .contact_bubbles .contact_deets h4 {
   text-align: left;
   font-weight: bold;
 }
-/* line 89, ../sass/screen.sass */
+/* line 81, ../sass/screen.sass */
 .contact_bubbles .contact_deets p {
   margin-top: 10px;
 }
 
-/* line 91, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 #ambler {
   float: left;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 #westchester {
   float: right;
 }
 
 /*  ************* Bio Layout  ************* */
-/* line 101, ../sass/screen.sass */
+/* line 93, ../sass/screen.sass */
 #bio_group {
   width: 100%;
   height: 100%;
@@ -624,7 +615,7 @@ img#guys {
   margin-bottom: 4em;
 }
 
-/* line 107, ../sass/screen.sass */
+/* line 99, ../sass/screen.sass */
 .bio {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -644,35 +635,35 @@ img#guys {
   width: 46%;
 }
 
-/* line 116, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 #chip {
   clear: left;
   float: left;
   background: white url(../images/about/apple_chip.png) no-repeat 96% 17.8em;
 }
 
-/* line 120, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 #jay {
   clear: right;
   float: right;
   background: white url(../images/about/apple_jay.png) no-repeat 96% 17.8em;
 }
 
-/* line 125, ../sass/screen.sass */
+/* line 117, ../sass/screen.sass */
 .info {
   text-align: center;
   float: right;
   width: 46%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 130, ../sass/screen.sass */
+/* line 122, ../sass/screen.sass */
 .info h2 {
   color: #525252;
   z-index: 1;
   text-transform: capitalize;
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
-/* line 135, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 .info p {
   color: #282828;
   text-align: center;
@@ -684,13 +675,13 @@ img#guys {
   padding-right: 1em;
 }
 
-/* line 145, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 blockquote.info {
   margin: 2em auto;
   font-style: italic;
   width: 100%;
 }
-/* line 149, ../sass/screen.sass */
+/* line 141, ../sass/screen.sass */
 blockquote.info:before {
   float: left;
   font-family: Georgia;
@@ -704,7 +695,7 @@ blockquote.info:before {
   position: relative;
   width: 50%;
 }
-/* line 161, ../sass/screen.sass */
+/* line 153, ../sass/screen.sass */
 blockquote.info:after {
   float: right;
   font-family: Georgia;
@@ -715,13 +706,13 @@ blockquote.info:after {
   padding-right: 0.2em;
   height: 0.4em;
 }
-/* line 172, ../sass/screen.sass */
+/* line 164, ../sass/screen.sass */
 blockquote.info img#chip_pic, blockquote.info img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 176, ../sass/screen.sass */
+/* line 168, ../sass/screen.sass */
 .video_bio_button {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -802,12 +793,12 @@ blockquote.info img#chip_pic, blockquote.info img#jay_pic {
   color: white;
 }
 
-/* line 187, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .bio_pic {
   float: left;
 }
 
-/* line 190, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 img#apple_logo {
   width: 8%;
   float: left;
@@ -816,13 +807,13 @@ img#apple_logo {
   left: 26.5em;
 }
 
-/* line 198, ../sass/screen.sass */
+/* line 190, ../sass/screen.sass */
 img#chip_pic, img#jay_pic {
   width: 225px;
   position: relative;
 }
 
-/* line 202, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 #bio h2 {
   color: #525252;
   z-index: 1;
@@ -830,7 +821,7 @@ img#chip_pic, img#jay_pic {
   font: small-caps 260% Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 208, ../sass/screen.sass */
+/* line 200, ../sass/screen.sass */
 #contact_locations h3 {
   color: #515151;
   text-transform: capitalize;
@@ -838,7 +829,7 @@ img#chip_pic, img#jay_pic {
   margin-bottom: 0.5em;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 206, ../sass/screen.sass */
 #tagus blockquote p {
   clear: none;
   position: relative;
@@ -846,7 +837,7 @@ img#chip_pic, img#jay_pic {
   color: gray;
 }
 
-/* line 220, ../sass/screen.sass */
+/* line 212, ../sass/screen.sass */
 #container div#top_footer #backgrounds {
   float: left;
   clear: right;
@@ -854,7 +845,7 @@ img#chip_pic, img#jay_pic {
   width: 9.9em;
 }
 
-/* line 226, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 #backgrounds img#background {
   width: 20em;
   position: relative;
