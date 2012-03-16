@@ -59,30 +59,42 @@ img#guys
 .contact_bubbles
   +border-radius
   +box-shadow
+  +background-image(linear-gradient(left, #fefefe, #fcfbf8))
   width: 46%
   font-family: $font
   position: relative
   padding: 1em
-  background: white url(../images/backgrounds/contact_locations_bg.png) repeat-y right center
+  .big_phone
+    float: left
+    width: 40%
+    a
+      img
+        width: 230px
+  .contact_deets
+    float: right
+    a
+      text-decoration: none
+      color: #525252
+    span.pc
+      color: #525252
+      cursor: pointer
+    img
+      width: 150px
+      display: block
+      position: relative
+      margin: 1em auto
+    h4
+      text-align: left
+      font-weight: bold
+    p
+      margin-top: 10px
 #ambler
   float: left
 #westchester
   float: right
 
-#contact_locations img
-  float: left
-  position: relative
-  width: 50%
-  border-style: none
-
 img#ichat
-  float: left
-  width: 28%
-  display: block
-  position: relative
-  padding-top: 1em
-  padding-bottom: 1em
-  padding-left: 3.5em
+
 
 /*  ************* Bio Layout  *************
 
