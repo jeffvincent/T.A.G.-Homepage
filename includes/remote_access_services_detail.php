@@ -1,0 +1,2 @@
+<h4>Remote Access Services</h4>
+<p>Have you ever wanted a problem fixed instantly?  Of course you have, we all want that.  We offer Remote Services to do just that.  Say you’re having trouble with something on your Mac and you can’t work it out on your own.  We can walk you through the process of what to do by taking control of your mouse and screen (all with your permission of course, cause otherwise that’d just be weird).  This is great because you could be in your pajamas or we don’t have to drive to you in rush hour traffic.  It’s a win/win situation.  Go us! Go You!</p>

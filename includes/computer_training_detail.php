@@ -1,0 +1,3 @@
+<h4>Apple Computer Training</h4>
+
+<p>Macs are great.  But where Apple leaves you hanging is in the 1 on 1 category.  I would prefer to never go into the mall at 9:00am to take a lesson from a guy who thinks he knows more than Steve Jobs (RIP).  We’ll help you learn your computer one step at a time.  And if there’s something out there to make your process easier, we’ll suggest it.  We’re not paid to endorse products, we just want to help you learn quickly, effectively, and be on your way to achieve your wildest Apple goals.  We can come to your place, your favorite Starbucks, or even via phone - wherever you want.</p>

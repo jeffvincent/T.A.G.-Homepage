@@ -3,9 +3,11 @@
 
 <link href="stylesheets/contact_screen.css" rel="stylesheet" type="text/css" media="all" />
 <body>
-<div id="container">
+
 <?php include('includes/header.php'); ?>
 <?php include('includes/nav.php'); ?>
+
+<div id="container">
 
 <!--Contact Start-->
 <div id="contact_locations">

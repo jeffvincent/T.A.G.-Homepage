@@ -9,7 +9,30 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 </script>
 <script type="text/javascript">
   (function($) {
-    $('#intro.services_detail').show();
+    $('#intro_detail.services_detail').show();
+    var services_list = $('#services_list');
+
+    function navChange(chapter) {
+      $('.services_detail').hide();
+      var chapter = "#" + chapter + "_detail";
+      $(chapter).show();
+    };
+
+    function selectimo(chapter) {
+      $('.selected').removeClass('selected');
+      chapter.addClass('selected');
+    };
+
+    $('h1#intro').on('click', function() {
+      navChange($(this).attr("id"));
+    });
+
+    services_list.children('li').on('click', function() {
+      var $this = $(this);
+      selectimo($this);
+      navChange($this.attr("id"));
+    });
+
   })(jQuery);
 </script>
 <script type="text/javascript">

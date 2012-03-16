@@ -1,12 +1,3 @@
-/*------------------------------------------------------------------
- *[Master Stylesheet] 
- *
- *Author:			Max Nanis <MaxN [at] bennington [dot] edu>
- *Version:	    1.0
- *Last change:	1/5/10
- *Primary use:	Those Apple Guys 
- *
- *------------------------------------------------------------------- */
 /* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -96,18 +87,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   outline: none;
 }
 
-/* line 13, ../sass/services_screen.sass */
+/* line 4, ../sass/services_screen.sass */
 #navbar #services a {
   width: 120px;
   background-position: -240px center;
 }
-/* line 16, ../sass/services_screen.sass */
+/* line 7, ../sass/services_screen.sass */
 #navbar #services a:hover {
   width: 120px;
   background-position: -240px center;
 }
 
-/* line 20, ../sass/services_screen.sass */
+/* line 11, ../sass/services_screen.sass */
 #services {
   -moz-box-shadow: 0px 0px 8px #333333;
   -webkit-box-shadow: 0px 0px 8px #333333;
@@ -126,9 +117,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-top: 4em;
   margin-bottom: 4em;
 }
-/* line 30, ../sass/services_screen.sass */
+/* line 20, ../sass/services_screen.sass */
 #services h1 {
   display: block;
+  cursor: pointer;
   border-bottom: 0.1em solid #d3d2d3;
   color: #515151;
   font: 2em Georgia, "Times New Roman", Times, serif;
@@ -154,7 +146,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-top-right-radius: 10px;
 }
 
-/* line 40, ../sass/services_screen.sass */
+/* line 31, ../sass/services_screen.sass */
 #services_content {
   display: block;
   width: 100%;
@@ -173,11 +165,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-bottom-right-radius: 10px;
 }
 
-/* line 46, ../sass/services_screen.sass */
+/* line 37, ../sass/services_screen.sass */
 #services_menu {
   display: inline-block;
   width: 250px;
   margin-left: -1px;
+  margin-right: -1px;
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #f9f5ec));
   background-image: -webkit-linear-gradient(left, #ffffff, #f9f5ec);
   background-image: -moz-linear-gradient(left, #ffffff, #f9f5ec);
@@ -191,7 +184,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -khtml-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-/* line 52, ../sass/services_screen.sass */
+/* line 44, ../sass/services_screen.sass */
 #services_menu ul {
   display: block;
   position: relative;
@@ -200,36 +193,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   border-right: 2px solid #d3d2d3;
 }
-/* line 59, ../sass/services_screen.sass */
+/* line 51, ../sass/services_screen.sass */
 #services_menu li {
   padding: 1em;
   padding-right: 0;
   border-bottom: 0.1em solid #d3d2d3;
   color: #817b7b;
+  cursor: pointer;
   font: bold 15px Georgia, "Times New Roman", Times, serif;
 }
-/* line 66, ../sass/services_screen.sass */
+/* line 59, ../sass/services_screen.sass */
 #services_menu li:hover a {
   color: #515151;
 }
-/* line 68, ../sass/services_screen.sass */
+/* line 61, ../sass/services_screen.sass */
 #services_menu li:last-child {
   border: none;
 }
-/* line 70, ../sass/services_screen.sass */
+/* line 63, ../sass/services_screen.sass */
 #services_menu li a {
   color: #817b7b;
 }
-/* line 72, ../sass/services_screen.sass */
+/* line 65, ../sass/services_screen.sass */
 #services_menu .selected {
   background-color: #515151;
+  margin-right: -1px;
 }
-/* line 74, ../sass/services_screen.sass */
+/* line 68, ../sass/services_screen.sass */
 #services_menu .selected a {
   color: white;
 }
+/* line 71, ../sass/services_screen.sass */
+#services_menu .selected:hover a {
+  color: white;
+}
 
-/* line 77, ../sass/services_screen.sass */
+/* line 74, ../sass/services_screen.sass */
 #service_info {
   display: inline-block;
   vertical-align: top;
@@ -238,18 +237,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 700px;
   position: relative;
 }
-/* line 84, ../sass/services_screen.sass */
+/* line 81, ../sass/services_screen.sass */
 #service_info div.services_detail {
   display: none;
 }
-/* line 86, ../sass/services_screen.sass */
+/* line 83, ../sass/services_screen.sass */
 #service_info div.services_detail p {
   font-family: Georgia, "Times New Roman", Times, serif;
   word-spacing: 0.2em;
   padding: 1em 2em;
   line-height: 150%;
 }
-/* line 91, ../sass/services_screen.sass */
+/* line 88, ../sass/services_screen.sass */
 #service_info div.services_detail h4 {
   text-align: center;
   text-transform: uppercase;
@@ -260,26 +259,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   letter-spacing: 0.06em;
 }
 
-/* line 100, ../sass/services_screen.sass */
-.show {
-  display: block;
-}
-
-/* line 103, ../sass/services_screen.sass */
+/* line 97, ../sass/services_screen.sass */
 #towns_lists {
   width: 400px;
   margin: 20px auto;
 }
 
-/* line 106, ../sass/services_screen.sass */
+/* line 100, ../sass/services_screen.sass */
 ul.towns_list {
   display: inline-block;
 }
-/* line 108, ../sass/services_screen.sass */
+/* line 102, ../sass/services_screen.sass */
 ul.towns_list:last-child {
   margin-left: 90px;
 }
-/* line 110, ../sass/services_screen.sass */
+/* line 104, ../sass/services_screen.sass */
 ul.towns_list li {
   padding-bottom: 10px;
   font-weight: bold;

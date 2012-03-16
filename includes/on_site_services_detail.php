@@ -1,0 +1,3 @@
+<h4>On-Site Services</h4> 
+<p>Why come to us, when we can come to you?  If you or your business can’t afford to have downtime, we’ll come out to fix your problem on the spot!  There’s no reason for you to lug your MacPro to us if we can fix your problems while you have home field advantage. </p> 
+<p>We also like this because of what we call the “Curse of the computer guy”.  This is when something is wrong with your computer and as soon as a computer guy comes within 3 feet of it, the problem doesn’t exist anymore. Kinda like what happens when you have "that sound" in your car and it magically dissapears when you take it to the mechanic.  We like to know things work, and that they work properly where you have them in your home or business.</p>

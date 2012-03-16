@@ -42,12 +42,6 @@
 });
 </script>
 
-<script type="text/javascript">
-  (function($) {
-    $('#intro.services_detail').show();
-    console.log("this baby ran!");
-  })(jQuery);
-</script>
 
 <?php $ran = rand(2, 14); ?>
     

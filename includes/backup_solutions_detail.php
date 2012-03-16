@@ -1,0 +1,2 @@
+<h4>Backup Solutions</h4>
+<p>Hard Drives are like light bulbs – they can go out at anytime for any reason.  Whether your hard drive is 1 day old or 15 years old, you should backup your data on a regularly scheduled basis.  Those Apple Guys can help you with simple backups all the way through multiple off-site and on-site backups.  It would be a shame to lose all those pictures, music, movies and work documents because you didn’t backup…but don’t say we never told you so…</p>

@@ -1,12 +1,3 @@
-/*------------------------------------------------------------------ 
- *[Master Stylesheet] 
- *
- *Author:			Max Nanis <MaxN [at] bennington [dot] edu>
- *Version:	    1.0
- *Last change:	1/5/10
- *Primary use:	Those Apple Guys 
- *
- *-------------------------------------------------------------------
 
 @import "partials/vars_and_mixins"
 
@@ -26,9 +17,9 @@
   width: $topfooter-width
   margin-top: $content-margin
   margin-bottom: $content-margin
-  
   h1
     display: block
+    cursor: pointer
     border-bottom: .1em solid #d3d2d3
     color: $footer-h-color 
     font: 2em $font 
@@ -47,6 +38,7 @@
   display: inline-block
   width: 250px
   margin-left: -1px
+  margin-right: -1px
   +background-image(linear-gradient(left, #fff, #f9f5ec))
   +border-bottom-left-radius
   ul
@@ -61,6 +53,7 @@
     padding-right: 0
     border-bottom: .1em solid #d3d2d3
     color: #817b7b
+    cursor: pointer
     font: bold 15px $font 
     &:hover
       a
@@ -71,8 +64,12 @@
       color: #817B7B
   .selected
     background-color: $footer-h-color
+    margin-right: -1px
     a
       color: white
+    &:hover
+      a
+        color: white
 
 #service_info
   display: inline-block
@@ -96,9 +93,6 @@
       padding-top: 1em
       padding-bottom: .5em
       letter-spacing: .06em
-
-.show
-  display: block
 
 #towns_lists
   width: 400px
