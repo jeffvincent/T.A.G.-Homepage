@@ -1,406 +1,67 @@
-/* line 17, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+/*
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load paths:
+                /Applications/MAMP/htdocs/those_apple_guys_dev
+                /Applications/MAMP/htdocs/those_apple_guys_dev/sass
+        on line 23 of /Applications/MAMP/htdocs/those_apple_guys_dev/sass/partials/_vars_and_mixins.sass
+        from line 2 of /Applications/MAMP/htdocs/those_apple_guys_dev/sass/home_screen.sass
 
-/* line 20, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
-  line-height: 1;
-}
+18:     width: 100%
+19:     display: block
+20:     height: 10px
+21:     color: black
+22:     bottom: -10px
+23:     z-index: 5
+24: #about_us
+25:   width: 1000px
+26:   margin: .5em auto .2em
+27:   position: static
+28:   z-index: -2
 
-/* line 22, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 24, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 26, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 28, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 101, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 30, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 114, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/* incase an inverted custom gradient isn't specified */
-/* line 177, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class, button.about_us {
-  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
-  background: url('/images/button_bg.png?1331402483') repeat-x bottom left;
-  margin: 0;
-  width: auto;
-  overflow: visible;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  border-style: solid;
-  font-weight: bold;
-}
-/* line 165, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner, button.about_us::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-/* line 168, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus, button.about_us:focus {
-  outline: none;
-}
-
-/*  ************* HOME: About_Us Layout  ************* */
-/* line 9, ../sass/home_screen.sass */
-#about_us_wrapper {
-  width: 100%;
-  position: relative;
-  top: -10px;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #31471f), color-stop(50%, #2b3e1b), color-stop(100%, #243417));
-  background-image: -webkit-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
-  background-image: -moz-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
-  background-image: -o-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
-  background-image: -ms-linear-gradient(bottom, #31471f, #2b3e1b, #243417);
-  background-image: linear-gradient(bottom, #31471f, #2b3e1b, #243417);
-}
-/* line 14, ../sass/home_screen.sass */
-#about_us_wrapper:after {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #151716), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(top, #151716, #ffffff);
-  background-image: -moz-linear-gradient(top, #151716, #ffffff);
-  background-image: -o-linear-gradient(top, #151716, #ffffff);
-  background-image: -ms-linear-gradient(top, #151716, #ffffff);
-  background-image: linear-gradient(top, #151716, #ffffff);
-  content: "";
-  position: absolute;
-  width: 100%;
-  display: block;
-  height: 10px;
-  color: black;
-  bottom: -10px;
-  z-index: 5;
-}
-
-/* line 24, ../sass/home_screen.sass */
-#about_us {
-  width: 1000px;
-  margin: 0.5em auto 0.2em;
-  position: static;
-  z-index: -2;
-}
-/* line 29, ../sass/home_screen.sass */
-#about_us #guys_shadow {
-  float: left;
-  width: 28.5em;
-}
-/* line 32, ../sass/home_screen.sass */
-#about_us #guys_shadow img {
-  display: block;
-  position: relative;
-  width: 28.5em;
-  padding-top: 0.3em;
-}
-
-/* line 38, ../sass/home_screen.sass */
-#computernerds {
-  float: right;
-  text-align: center;
-}
-/* line 41, ../sass/home_screen.sass */
-#computernerds img#computernerds {
-  display: block;
-  position: relative;
-  width: 32em;
-  margin: 5em auto 2em;
-}
-/* line 46, ../sass/home_screen.sass */
-#computernerds img#who_we_are {
-  position: relative;
-  width: 12em;
-  margin: 1em auto;
-  z-index: 2;
-  top: 10em;
-  left: 25em;
-}
-/* line 53, ../sass/home_screen.sass */
-#computernerds p {
-  margin: 5em auto 2em;
-}
-/* line 55, ../sass/home_screen.sass */
-#computernerds span {
-  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: #c8c5c5;
-}
-/* line 60, ../sass/home_screen.sass */
-#computernerds span:first-child {
-  font-size: 45px;
-}
-/* line 62, ../sass/home_screen.sass */
-#computernerds span:last-child {
-  font-size: 32px;
-  margin-left: 40px;
-}
-
-/* line 66, ../sass/home_screen.sass */
-button.about_us {
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -o-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -khtml-border-radius: 15px;
-  border-radius: 15px;
-  font-size: 24px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 1px;
-  background-color: #1c1c1c;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(10%, #424242), color-stop(50%, #141414), color-stop(50%, #0d0d0d), color-stop(100%, #262626));
-  background-image: -webkit-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
-  background-image: -moz-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
-  background-image: -o-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
-  background-image: -ms-linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
-  background-image: linear-gradient(#707070, #424242 10%, #141414 50%, #0d0d0d 50%, #262626);
-  border-color: black;
-  text-shadow: black 0px 1px 1px;
-  -moz-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
-  -o-box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.11) 0 0 0.1em 1px inset;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  -o-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -khtml-background-clip: padding-box;
-  background-clip: padding-box;
-  width: 190px;
-  height: 65px;
-  font-size: 19px;
-  display: block;
-  margin: 0 auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button.about_us, button.about_us:visited {
-  color: white;
-}
-/* line 31, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button.about_us:hover, button.about_us:focus {
-  background-color: #141414;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #696969), color-stop(10%, #3b3b3b), color-stop(50%, #0d0d0d), color-stop(50%, #050505), color-stop(100%, #1f1f1f));
-  background-image: -webkit-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
-  background-image: -moz-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
-  background-image: -o-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
-  background-image: -ms-linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
-  background-image: linear-gradient(#696969, #3b3b3b 10%, #0d0d0d 50%, #050505 50%, #1f1f1f);
-  border-color: black;
-  text-shadow: black 0px 1px 1px;
-}
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button.about_us:hover, button.about_us:hover:visited, button.about_us:focus, button.about_us:focus:visited {
-  color: white;
-}
-/* line 36, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button.about_us:active {
-  background-color: #0d0d0d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0f0f0f), color-stop(30%, #141414), color-stop(50%, #0a0a0a), color-stop(50%, #030303), color-stop(100%, #242424));
-  background-image: -webkit-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
-  background-image: -moz-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
-  background-image: -o-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
-  background-image: -ms-linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
-  background-image: linear-gradient(#0f0f0f, #141414 30%, #0a0a0a 50%, #030303 50%, #242424);
-  border-color: black;
-  text-shadow: black 0px -1px -1px;
-  -moz-box-shadow: black 0 0.08em 0.2em 1px inset;
-  -webkit-box-shadow: black 0 0.08em 0.2em 1px inset;
-  -o-box-shadow: black 0 0.08em 0.2em 1px inset;
-  box-shadow: black 0 0.08em 0.2em 1px inset;
-}
-/* line 116, ../../../../../Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
-button.about_us:active, button.about_us:active:visited {
-  color: white;
-}
-
-/*  ************* Content Layout  ************* */
-/* line 77, ../sass/home_screen.sass */
-#description {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  border-radius: 10px;
-  -moz-box-shadow: 0px 0px 8px #333333;
-  -webkit-box-shadow: 0px 0px 8px #333333;
-  -o-box-shadow: 0px 0px 8px #333333;
-  box-shadow: 0px 0px 8px #333333;
-  clear: left;
-  float: left;
-  width: 27em;
-  padding: 1em;
-  background: white no-repeat;
-}
-/* line 85, ../sass/home_screen.sass */
-#description h2 {
-  color: #525252;
-  text-transform: uppercase;
-  font: small-caps 260% Georgia, "Times New Roman", Times, serif;
-}
-/* line 89, ../sass/home_screen.sass */
-#description p {
-  color: #282828;
-  text-align: left;
-  white-space: normal;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  word-spacing: 0.2em;
-  margin: 1em;
-  font-size: 16px;
-  line-height: 1.2em;
-}
-
-/* line 100, ../sass/home_screen.sass */
-#container #content {
-  float: left;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  z-index: 2;
-  padding-top: 2.8em;
-  padding-right: 0.5em;
-  background: transparent no-repeat;
-  padding-bottom: 2em;
-}
-
-/* line 111, ../sass/home_screen.sass */
-#video_area {
-  float: left;
-  clear: none;
-  width: 32em;
-  z-index: 0;
-  background: none no-repeat 5em 1em;
-  padding-left: 1.5em;
-  margin: 3em auto auto;
-}
-
-/* line 120, ../sass/home_screen.sass */
-#video_area object {
-  padding: 1.5em;
-}
-
-/* line 123, ../sass/home_screen.sass */
-img#video {
-  width: 100%;
-}
-
-/*  ************* Campaign Layout  ************* */
-/* line 128, ../sass/home_screen.sass */
-#campaign {
-  width: 100%;
-  height: 100%;
-  background: transparent none repeat-y;
-  padding-top: 2em;
-  margin-top: 2em;
-  position: relative;
-  border-top: 1px solid #d3d2d3;
-}
-
-/* line 137, ../sass/home_screen.sass */
-#tagus {
-  float: right;
-  width: 40%;
-  margin: auto;
-  position: relative;
-  top: 2em;
-  right: 4em;
-}
-/* line 144, ../sass/home_screen.sass */
-#tagus blockquote {
-  color: #4a4a4a;
-  font-style: italic;
-  text-align: center;
-  margin: 0;
-  font-size: 120%;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 1em;
-  width: 100%;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-/* line 156, ../sass/home_screen.sass */
-#video_promo {
-  clear: left;
-  float: left;
-  width: 50%;
-  padding-right: 1em;
-}
-
-/* line 162, ../sass/home_screen.sass */
-#top_footer #backgrounds {
-  float: right;
-  width: 24em;
-  clear: none;
-  background-image: none;
-  padding-top: 7em;
-  z-index: 0;
-  position: absolute;
-  display: block;
-  left: 45em;
-}
-
-/* line 173, ../sass/home_screen.sass */
-#video_promo img.promos {
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  width: 90%;
-  float: left;
-  padding-left: 0.5em;
-}
-
-/* line 180, ../sass/home_screen.sass */
-#backgrounds img#background {
-  position: absolute;
-  z-index: -1;
-  float: left;
-  width: 150%;
-  margin-left: -1em;
-  margin-top: 3.5em;
-}
+Backtrace:
+/Applications/MAMP/htdocs/those_apple_guys_dev/sass/partials/_vars_and_mixins.sass:23
+/Applications/MAMP/htdocs/those_apple_guys_dev/sass/home_screen.sass:2
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/import_node.rb:42:in `import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:146:in `map'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/engine.rb:299:in `_render'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/engine.rb:246:in `render'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:234:in `watch'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/plugin.rb:107:in `method_missing'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/exec.rb:431:in `watch_or_update'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/exec.rb:302:in `process_result'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/exec.rb:41:in `parse'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/lib/sass/exec.rb:21:in `parse!'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/gems/sass-3.1.15/bin/sass:8:in `<top (required)>'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/bin/sass:19:in `load'
+/Users/jeff/.rvm/gems/ruby-1.9.3-p125@tag/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load paths:\A                 /Applications/MAMP/htdocs/those_apple_guys_dev\A                 /Applications/MAMP/htdocs/those_apple_guys_dev/sass\A         on line 23 of /Applications/MAMP/htdocs/those_apple_guys_dev/sass/partials/_vars_and_mixins.sass\A         from line 2 of /Applications/MAMP/htdocs/those_apple_guys_dev/sass/home_screen.sass\A \A 18:     width: 100%\A 19:     display: block\A 20:     height: 10px\A 21:     color: black\A 22:     bottom: -10px\A 23:     z-index: 5\A 24: #about_us\A 25:   width: 1000px\A 26:   margin: .5em auto .2em\A 27:   position: static\A 28:   z-index: -2"; }

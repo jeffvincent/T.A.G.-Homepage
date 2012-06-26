@@ -161,7 +161,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-bottom: none;
 }
 
-/* line 52, ../sass/partials/_footer.sass */
+/* line 50, ../sass/partials/_footer.sass */
 #contact_info {
   float: left;
   width: 54%;
@@ -170,12 +170,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: relative;
   height: 100%;
 }
-/* line 59, ../sass/partials/_footer.sass */
+/* line 57, ../sass/partials/_footer.sass */
 #contact_info a {
   text-decoration: none;
   color: #525252;
 }
-/* line 62, ../sass/partials/_footer.sass */
+/* line 60, ../sass/partials/_footer.sass */
 #contact_info p {
   position: relative;
   width: 95%;
@@ -188,18 +188,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-top: 0.5em;
   padding: 0;
 }
-/* line 73, ../sass/partials/_footer.sass */
+/* line 71, ../sass/partials/_footer.sass */
 #contact_info p.maps {
   background: url(../images/buttons/maps.png) no-repeat;
   line-height: 1.8em;
 }
-/* line 76, ../sass/partials/_footer.sass */
+/* line 74, ../sass/partials/_footer.sass */
 #contact_info p.phone {
   background: url(../images/buttons/phone.png) no-repeat 0 50%;
   margin-top: 0.2em;
 }
 
-/* line 80, ../sass/partials/_footer.sass */
+/* line 78, ../sass/partials/_footer.sass */
 .contact_locations {
   width: 200px;
   margin-top: 1em;
@@ -208,6 +208,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: relative;
   display: inline-block;
   vertical-align: top;
+  zoom: 1;
+  *display: inline;
 }
 
 /* line 89, ../sass/partials/_footer.sass */
@@ -307,7 +309,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /*  ************* NavBar Layout  ************* */
-/* line 4, ../sass/partials/_navbar.sass */
+/* line 3, ../sass/partials/_navbar.sass */
 #navbar_wrapper {
   width: 100%;
   position: relative;
@@ -318,7 +320,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-shadow: 0px 0px 8px #333333;
 }
 
-/* line 10, ../sass/partials/_navbar.sass */
+/* line 9, ../sass/partials/_navbar.sass */
 #navbar {
   z-index: 0;
   width: 1000px;
@@ -329,16 +331,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: relative;
   text-align: left;
 }
-/* line 19, ../sass/partials/_navbar.sass */
+/* line 18, ../sass/partials/_navbar.sass */
 #navbar h2, #navbar ul, #navbar a {
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 22, ../sass/partials/_navbar.sass */
+/* line 21, ../sass/partials/_navbar.sass */
 #navbar h2, #navbar a {
   color: #987c5c;
 }
-/* line 24, ../sass/partials/_navbar.sass */
+/* line 23, ../sass/partials/_navbar.sass */
 #navbar h2 {
   font-size: 120%;
   position: absolute;
@@ -346,7 +348,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   top: 0.7em;
   text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
 }
-/* line 30, ../sass/partials/_navbar.sass */
+/* line 29, ../sass/partials/_navbar.sass */
 #navbar ul {
   list-style: none;
   display: inline-block;
@@ -355,8 +357,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
+  zoom: 1;
+  *display: inline;
 }
-/* line 38, ../sass/partials/_navbar.sass */
+/* line 39, ../sass/partials/_navbar.sass */
 #navbar .navbar {
   list-style: none;
   padding: 0;
@@ -364,27 +368,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   display: inline-block;
   border-left: 1px solid #987c5c;
+  zoom: 1;
+  *display: inline;
 }
-/* line 45, ../sass/partials/_navbar.sass */
+/* line 48, ../sass/partials/_navbar.sass */
 #navbar .navbar a {
   text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 1px;
   display: block;
   font-size: 1.1em;
   padding: 0.8em 1em;
 }
-/* line 50, ../sass/partials/_navbar.sass */
+/* line 53, ../sass/partials/_navbar.sass */
 #navbar .navbar:nth-child(4) {
   border-right: 1px solid #987c5c;
 }
-/* line 52, ../sass/partials/_navbar.sass */
+/* line 55, ../sass/partials/_navbar.sass */
 #navbar .navbar:hover {
   background-color: #fdfcf3;
 }
-/* line 54, ../sass/partials/_navbar.sass */
+/* line 57, ../sass/partials/_navbar.sass */
 #navbar .navbar:hover a {
   color: #4e4e4c;
 }
-/* line 56, ../sass/partials/_navbar.sass */
+/* line 59, ../sass/partials/_navbar.sass */
 #navbar li.active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5c1112), color-stop(100%, #f8f4ea));
   background-image: -webkit-linear-gradient(top, #5c1112, #f8f4ea);
@@ -393,11 +399,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: -ms-linear-gradient(top, #5c1112, #f8f4ea);
   background-image: linear-gradient(top, #5c1112, #f8f4ea);
 }
-/* line 58, ../sass/partials/_navbar.sass */
+/* line 61, ../sass/partials/_navbar.sass */
 #navbar li.active a {
   color: white;
 }
-/* line 60, ../sass/partials/_navbar.sass */
+/* line 63, ../sass/partials/_navbar.sass */
 #navbar li.active:hover a {
   color: white;
 }

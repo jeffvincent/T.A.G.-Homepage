@@ -17,4 +17,3 @@ TODO:
 
   So many things.
   Get Chip's input so the site is actually good.
-  Re-do services page (move to jQuery/AJAX)
