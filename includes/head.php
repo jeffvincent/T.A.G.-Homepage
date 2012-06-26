@@ -22,8 +22,7 @@
 <!-- Style Stuff -->
 <link href="stylesheets/screen.css" rel="stylesheet" type="text/css" media="all" />
 <!--[if IE]>
-  <link rel="stylesheet" type="text/css" href="../all-ie-only.css" />
-  <link rel="stylesheet" type="text/css" href="../all-ie-only_home.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/ie.css" />
 <![endif]-->
 
 <!-- Page Specific Style (unnecessary) -->
